@@ -1,0 +1,15 @@
+test*
+*/*
+!*/*.ly
+!*/*.ily
+!*/*/index.md
+!*/*/exports/
+
+# Editor backup files
+*~
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
