@@ -2,8 +2,8 @@ test*
 */*
 !*/*.ly
 !*/*.ily
-!*/*/index.md
-!*/*/exports/
+!*/index.md
+!*/exports/
 
 # Editor backup files
 *~
