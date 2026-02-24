@@ -6,9 +6,9 @@ test*
 !*/exports/
 
 # Ignore audio files in exports directories if config.yaml exists
-*/*/exports/*.m4a
-*/*/exports/*.mp3
-*/*/exports/*.wav
+*/exports/*.m4a
+*/exports/*.mp3
+*/exports/*.wav
 
 # Editor backup files
 *~
