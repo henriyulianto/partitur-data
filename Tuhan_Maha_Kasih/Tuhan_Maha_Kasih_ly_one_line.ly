@@ -4,55 +4,27 @@
 \include "../../solmisasi-ly/solmisasi-ly.ily"
 \debugOff
 
-\include "../__includes/svg-animation-init.ily"
-
 \include "../__includes/gj-music-template.ily"
+
+\include "../__includes/svg-animation-init.ily"
 
 % Data
 \include "Tuhan_Maha_Kasih_ly_main.ly"
 
 \paper {
-  %#(set-paper-size '(cons (* 210 mm) (* 1000 mm)))
-  indent = 0\mm
-  short-indent = 0\mm
-  right-margin = 10\mm
-  top-margin = 5\mm
-  bottom-margin = 5\mm
-  last-bottom-spacing.padding = 2
+  indent = 0
+  page-breaking = #ly:one-line-breaking
   bookTitleMarkup = ##f
-  oddFooterMarkup = ##f
-  oddHeaderMarkup = ##f
-  ragged-last = ##f
-  %system-system-spacing.padding = #5
-
-  page-breaking =
-  #(if is-svg?
-       ly:one-page-breaking
-       ly:optimal-breaking)
-
-  paper-width = 240\mm
-  % #(if is-svg?
-  %        (* 224 mm)
-  %        (* 210 mm))
 }
 
-% Layout overrides
 SolmisasiLayout = \layout {
   $(if SolmisasiLayout SolmisasiLayout)
   \context {
     \Score
-    \override StaffHighlight.after-line-breaking = #add-data-bar-to-highlight
     \omit BarNumber
   }
   \context {
     \SolmisasiStaff
-
-    #(if is-svg?
-         (ly:parser-include-string
-          "\\consists #Simple_highlight_engraver
-           \\consists Staff_highlight_engraver
-           \\consists #Bar_timing_collector"))
-
     \consists Divisi_line_engraver
     \override DivisiVoiceFollower.bound-details.right.padding = 1.2
     \override DivisiVoiceFollower.bound-details.left.padding = 1.2
@@ -62,6 +34,11 @@ SolmisasiLayout = \layout {
     beamExceptions = #'()
     beatBase = #1/4
     beatStructure = 1,1,1,1
+  }
+  \context {
+    \SolmisasiVoice
+    \consists \Tie_grob_engraver
+    \consists #simple-fermata-data-engraver
   }
   \context {
     \Lyrics
@@ -74,5 +51,4 @@ SolmisasiLayout = \layout {
   }
 }
 
-% Output
 \include "../../solmisasi-ly/ly/choir.ily"

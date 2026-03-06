@@ -176,6 +176,7 @@
 SolmisasiLayout = \layout {
   \context {
     \Score
+    \remove Volta_engraver
     \omit SystemStartBar
     \override SystemStartBracket.padding = #6
     \override SystemStartBracket.direction = #LEFT
@@ -192,6 +193,10 @@ SolmisasiLayout = \layout {
     \SolmisasiGlobalStaff
     \override SolmisasiKeyChangeMark.font-size = #0.5
     %\override SolmisasiKeyChangeMark.background-color = "#def0ca"
+  }
+  \context {
+    \SolmisasiChoirStaff
+    \consists Volta_engraver
   }
   \context {
     \SolmisasiStaff

@@ -3,33 +3,8 @@
 
 % SETTINGS
 SolmisasiStaffSize = 22
-MIDIExtension = "mid"
+MIDIExtension = "midi"
 ExportMIDI = ##t
-
-% Layout overrides
-SolmisasiLayout = \layout {
-  $(if SolmisasiLayout SolmisasiLayout)
-  \context {
-    \Score
-    \omit BarNumber
-  }
-  \context {
-    \SolmisasiStaff
-    \override TimeSignature.stencil = ##f
-    beamExceptions = #'()
-    beatBase = #1/4
-    beatStructure = 1,1,1,1
-  }
-  \context {
-    \Lyrics
-    \override LyricText.font-size = #0.75
-  }
-  \context {
-    \ChordNames
-    \override ChordName.font-size = #-1.25
-    \override ChordName.color = "#333333"
-  }
-}
 
 % Global
 
@@ -46,14 +21,14 @@ Global = {
   \tag #'midi { \tempo 4 = 66 }
 
   % Ibtro
-  \mark "" \markup\bold\smallCaps\smaller "Intro:"
-  \partial 2
-  s2 |
-  s1*4 \break |
-  s1*4 |
-  \set Score.proportionalNotationDuration = #1/2
-  s1*2 \break |
-  \unset Score.proportionalNotationDuration
+  %   \mark "" \markup\bold\smallCaps\smaller "Intro:"
+  %   \partial 2
+  %   s2 |
+  %   s1*4 \break |
+  %   s1*4 |
+  %   \set Score.proportionalNotationDuration = #1/2
+  %   s1*2 \break |
+  %   \unset Score.proportionalNotationDuration
 
   % Blok A
   \temporary \override Score.RehearsalMark.X-offset = #-2.5
@@ -108,22 +83,28 @@ Global = {
   s1*4 \bar "||" \pageBreakPDFOnly
 
   % Blok G
-  \once\override Score.RehearsalMark.extra-offset = #'(0 . -2)
+  \override Score.RehearsalMark.extra-offset = #'(0 . -2)
   \mark\default
   s1*5 \break |
-  \after 1*9/2 \break s1*5 |
+  \after 1*9/2 {
+    \break
+  }
+  s1*5 |
 
   % Blok H
   \revert Score.RehearsalMark.X-offset
   \mark\default
   \repeat volta 2 {
-    \after 1*4 \break s1*7
+    \after 1*4 \pageBreakPDFOnly s1*7
     \alternative {
       \volta 1 { s1 \noBreak }
       \volta 2 { s1 \break }
     }
   }
-  s1
+  %   \after 1*3 \set Score.proportionalNotationDuration = #1/2
+  %   \after 1*4 \unset Score.proportionalNotationDuration
+  %   \after 1*5 \set Score.proportionalNotationDuration = #1/2
+  s1*7 \bar "|."
 }
 
 InstrumentCueInstrumentName = \markup\null
@@ -132,17 +113,17 @@ InstrumentCueMusic = {
   \numericTimeSignature
   \time 4/4
   \key b \major
-  \partial 2 r8 dis''8 fis''8 b''8 | % 1
-  dis'''2 cis'''8 dis'''8 cis'''8 b''8 | % 2
-  cis'''2 r8 dis''8 gis''8 ais''8 | % 3
-  b''2 ais''8 b''8 ais''8 gis''8 | % 4
-  ais''2 r8 dis'''8 dis'''8 dis'''8 | % 5
-  cis'''2 cis'''8 e'''8 dis'''8 cis'''8 | % 6
-  b''2 r8 gis''8 ais''8 b''8 | % 7
-  fis'''4 e'''4 r8 gis''8 fisis''8 gis''8 | % 8
-  dis'''4 r4 dis'''4 r4 | % 9
-  b''1 ( | % 10
-  b''2.) r4 | % 11
+  % \partial 2 r8 dis''8 fis''8 b''8 | % 1
+  %   dis'''2 cis'''8 dis'''8 cis'''8 b''8 | % 2
+  %   cis'''2 r8 dis''8 gis''8 ais''8 | % 3
+  %   b''2 ais''8 b''8 ais''8 gis''8 | % 4
+  %   ais''2 r8 dis'''8 dis'''8 dis'''8 | % 5
+  %   cis'''2 cis'''8 e'''8 dis'''8 cis'''8 | % 6
+  %   b''2 r8 gis''8 ais''8 b''8 | % 7
+  %   fis'''4 e'''4 r8 gis''8 fisis''8 gis''8 | % 8
+  %   dis'''4 r4 dis'''4 r4 | % 9
+  %   b''1 ( | % 10
+  %   b''2.) r4 | % 11
 
   % Blok A-C
   s1*8 s1*8 s1*10
@@ -190,8 +171,8 @@ SopranoMusic = {
   \numericTimeSignature
   \time 4/4
   \key b \major
-  \partial 2 s2 | % 1
-  s1*10 |
+  %   \partial 2 s2 | % 1
+  %   s1*10 |
 
   % Blok A
   s1*8 |
@@ -224,19 +205,48 @@ SopranoMusic = {
   fis''8 e''8 e''2 cis''8 gis''8 | % 34
   gis''8 ( fis''8 ) fis''4. r8 dis''8\< fis''8 | % 35
   fis''8 ( e''8 ) gis''4.\! ais''8 b''8 cis'''8 | % 36
-  cis'''8 b''8 b''4( 8) dis'''8 -\mf cis'''8 b''8 |
+  cis'''8 b''8 b''4( 8)
+  -\tweak extra-offset #'(-6.5 . 7.7)
+  -\markup\italic \with-dimensions-from \null "Susunan: ST-AB"
+  dis'''8 -\mf cis'''8 b''8 |
 
   % Blok H
-  gis''1*5/8 \< gis''8 \! b''8 gis''8 | % 74
-  dis'''8 ( cis'''1*5/8 ) -\> ais''8 \! gis''8 | % 75
-  fis''2 fis''8 fis''8 cis'''8 ais''8 | % 76
-  cis'''8 b''4. r8 b''8 gis''8 fis''8 | % 77
-  \after 2 \< e''1*5/8 e''8 gis''8 dis'''8\! | % 78
-  dis'''8 ( cis'''4. ) r8 ais''8 ais''8 b''8 | % 79
-  cis'''2 \tuplet 3/2 {
-    dis''4 cis'''4 b''4
+  \repeat volta 2 {
+    gis''1*5/8 \< gis''8 \! b''8 gis''8 | % 74
+    dis'''8 ( cis'''1*5/8 ) -\> \breathe ais''8 \! gis''8 | % 75
+    fis''2 fis''8 fis''8 cis'''8 ais''8 | % 76
+    cis'''8 b''4. r8 b''8 gis''8 fis''8 | % 77
+    \after 2 \< e''1*5/8 e''8 gis''8 dis'''8\! | % 78
+    dis'''8 ( cis'''4. ) r8 ais''8 ais''8 b''8 | % 79
+    cis'''2 \tuplet 3/2 {
+      dis''4 cis'''4 b''4
+    }
+    \alternative {
+      % volta 1
+      \volta 1 {
+        b''2 r8 dis'''8 -\mf cis'''8 b''8 |
+      }
+      % volta 2
+      \volta 2 {
+        b''2 r8 gis''8 gis''8 ais''8 |
+      }
+    }
   }
-  b''2 r8 dis'''8 cis'''8 b''8 |
+
+  % Blok I
+  b''2. b''8 ( gis''8 ) | % 83
+  dis'''8 ( cis'''2 ) ais''8 ais''8 b''8 | % 84
+  cis'''2 \tuplet 3/2 {
+    dis'''4 cis'''4 b''4
+  }
+  | % 85
+  b''1 | % 86
+  r4 b''4-\tweak extra-offset #'(0 . -0.5)\f cis'''4 e'''4 | % 87
+  <dis''' fis'''>1 | % 88
+  \once\override SolmisasiNoteHead.stencil =
+  #(lambda (grob)
+     (grob-interpret-markup grob #{ \markup "0" #}))
+  dis'''4 r2.
 }
 
 AltoInstrumentName = "A."
@@ -246,8 +256,8 @@ AltoMusic = {
   \numericTimeSignature
   \time 4/4
   \key b \major
-  \partial 2 s2 | % 1
-  s1*10 |
+  %   \partial 2 s2 | % 1
+  %   s1*10 |
 
   % Blok A
   cis''4 ( -\tweak extra-offset #'(0 . -1)-\mp b'8 ) dis''2 dis''8 | % 12
@@ -310,7 +320,45 @@ AltoMusic = {
   gis''8 fis''8 fis''4 (
   \set Staff.shortInstrumentName = "T."
   \set Staff.maleVocal = ##t
-  dis'''8) fis'''8 e'''8 dis'''8 | % 37
+  dis'''8) fis'''8 e'''8 dis'''8 \spanBarOn | % 37
+
+  % Blok H
+  \repeat volta 2 {
+    b''1*5/8 b''8 e'''8 e'''8 \spanBarOff | % 74
+    fis'''2. \breathe cis'''8 b''8 | % 75
+    ais''2 ais''8 ais''8 ais''8 dis'''8 | % 76
+    cis'''8 dis'''4. r8 dis'''8 b''8 ais''8 \spanBarOn | % 77
+    gis''1*5/8 gis''8 b''8 dis'''8 \spanBarOff | % 78
+    fis'''2 r8 cis'''8 cis'''8 dis'''8 | % 79
+    e'''2 \tuplet 3/2 {
+      dis'''4 cis'''4 e'''4
+    }
+    \alternative {
+      % volta 1
+      \volta 1 {
+        dis'''2 r8 fis'''8 e'''8 dis'''8 \spanBarOn |
+      }
+      % volta 2
+      \volta 2 {
+        dis'''2 r8 gis''8 gis''8 ais''8 |
+      }
+    }
+  }
+
+  % Blok I
+  b''2. b''8 ( gis''8 ) \spanBarOff | % 83
+  dis'''8 ( cis'''2 ) cis'''8 cis'''8 dis'''8 | % 84
+  e'''2 \tuplet 3/2 {
+    dis'''4 cis'''4 e'''4
+  }
+  | % 85
+  dis'''1 \spanBarOn | % 86
+  r4 e'''4 e'''4 e'''4 \spanBarOff | % 87
+  <cis''' dis'''>1 \spanBarOn | % 88
+  \once\override SolmisasiNoteHead.stencil =
+  #(lambda (grob)
+     (grob-interpret-markup grob #{ \markup "0" #}))
+  cis'''4 r2.
 }
 
 TenorInstrumentName = "T."
@@ -320,14 +368,14 @@ TenorMusic = {
   \numericTimeSignature
   \time 4/4
   \key b \major
-  \partial 2 s2 | % 1
-  s1*10 |
+  %   \partial 2 s2 | % 1
+  %   s1*10 |
 
   % Blok A
   s1*8 |
 
   % Blok B
-  R1*3 r2.. dis'16 \< e'16 \spanBarOff | % 23
+  s1*3 r2.. dis'16 \< e'16 \spanBarOff | % 23
   \after 4. \! fis'2 \after 8 \> fisis'4 dis''8 cis''8 | % 24
   \after 32 \! cis''8 ( b'8 ) gis'!2 r8 gis'8 | % 25
   fis'8 fis'4 fis'8 dis''4. cis''8 | % 26
@@ -352,7 +400,7 @@ TenorMusic = {
   s1*10 s1*8 |
 
   % Blok F
-  R1*3 r2.. dis'16( \< e'16) \spanBarOff | % 23
+  s1*3 r2.. dis'16( \< e'16) \spanBarOff | % 23
   \after 4. \! fis'2 \after 8 \> fisis'4 dis''8 cis''8 | % 24
   \after 32 \! cis''8 b'8 gis'!2 r8 gis'8 | % 25
   fis'4. fis'8 dis''4. cis''8 | % 26
@@ -374,6 +422,40 @@ TenorMusic = {
   e''8 dis''8 dis''4(
   \set Staff.shortInstrumentName = "A."
   fis'4) r4 | % 37
+
+  % Blok H
+  \repeat volta 2 {
+    b4 b8 b8 e'2 | % 74
+    fis'4 fis'8  gis'8 ais'4 \breathe fis'8 e'8 | % 75
+    dis'2 cis'8 dis'8 dis'8 dis'8 | % 76
+    e'8 dis'1*5/8 r4 | % 77
+    e'4 e'8 fis'8 gis'2 | % 78
+    ais'4 ais'8 gis'8 fis'8 ais'8 ais'8 fis'8 | % 79
+    gis'2 \tuplet 3/2 {
+      b'4 ais'4 gis'4
+    }
+    \alternative {
+      \volta 1 {
+        fis'2. r4
+      }
+      \volta 2 {
+        fis'2 r8 gis'8 gis'8 ais'8  % 82
+      }
+    }
+  }
+  b'2. b'8 ( gis'8 ) | % 83
+  dis''8 ( cis''2 ) ais'8 ais'8 fis'8 | % 84
+  gis'2 \tuplet 3/2 {
+    b'4 ais'4 gis'4
+  }
+  | % 85
+  fis'1 | % 86
+  r4 fisis'4 fisis'4 a'4 | % 87
+  <fis' b'>1 | % 88
+  \once\override SolmisasiNoteHead.stencil =
+  #(lambda (grob)
+     (grob-interpret-markup grob #{ \markup "0" #}))
+  fis'4 r2.
 }
 
 BassInstrumentName = "B."
@@ -383,8 +465,8 @@ BassMusic = {
   \numericTimeSignature
   \time 4/4
   \key b \major
-  \partial 2 s2 | % 1
-  s1*10 |
+  %   \partial 2 s2 | % 1
+  %   s1*10 |
 
   % Blok A
   s1*8 |
@@ -424,7 +506,6 @@ BassMusic = {
   dis'4. e'8 fis'4. fis'8 | % 26
   b2. r4 | % 27
 
-
   % Blok G
   b'4 ( ais'8 gis'8 ) fis'2 | % 28
   b'4 ais'8 gis'8 fis'4. r8 | % 29
@@ -436,6 +517,40 @@ BassMusic = {
   r8 b'8 b'8 ais'8 gis'8 ( fis'8 ) e'8 dis'8 | % 35
   cis'4 ( dis'8 e'8 ) fis'8 fis'8 fis'8 fis'8 | % 36
   b8 b8 b4( 4) r4 | % 37
+
+  % Blok H
+  \repeat volta 2 {
+    e'4 e'8 fis'8 gis'2 | % 74
+    ais'4 ais'8  b'8 cis''4 \breathe fis'8 e'8 | % 75
+    dis'2 dis'8 dis'8 fis'8 ais'8 | % 76
+    gis'8 gis'1*5/8 r4 | % 77
+    cis'4 cis'8 dis'8 e'2 | % 78
+    fis'4 fis'8 gis'8 fis'8 fis'8 cis'8 dis'8 | % 79
+    e'2 \tuplet 3/2 {
+      fis'4 fis'4 fis'4
+    }
+    \alternative {
+      \volta 1 {
+        b2. r4
+      }
+      \volta 2 {
+        b2 r8 gis'8 gis'8 ais'8 % 82
+      }
+    }
+  }
+  b'2. b'8 ( gis'8 ) | % 83
+  dis''8 ( cis''2 ) fis'8 cis'8 dis'8 | % 84
+  e'2 \tuplet 3/2 {
+    fis'4 fis'4 fis'4
+  }
+  | % 85
+  b1 | % 86
+  r4 b4 b4 b4 | % 87
+  <b b'>1 | % 88
+  \once\override SolmisasiNoteHead.stencil =
+  #(lambda (grob)
+     (grob-interpret-markup grob #{ \markup "0" #}))
+  b4 r2.
 }
 
 % Lyrics
@@ -464,7 +579,7 @@ AltoLyricsBlokC = \lyricmode {
   Pu -- ji, pu -- ji Tu -- han
   Al -- lah Ma -- ha Ka -- sih,
   na -- ma -- Mu ku -- dus dan mu -- "li-" a,
-  Kau yang se -- ti -- a se -- la -- ma -- nya,
+  \markup\undertie "Kau" yang se -- ti -- a se -- la -- ma -- nya,
   ka -- mi sem -- bah de -- ngan su -- ka -- ci -- ta.
 }
 
@@ -482,7 +597,16 @@ AltoLyricsOne = \lyricmode {
   \AltoLyricsBlokC __
 
   % tenor
-  Al -- le -- lu
+  Al -- le -- \tweak X-offset #-0.4 "lu-" ya, al -- le -- lu -- ya,
+  ka -- sih -- Mu tak ber -- ke -- su -- dah -- an.
+  Al -- le -- lu -- ya, al -- le -- lu -- ya,
+  ke -- mu -- \markup\undertie "lia" -- an ba -- gi Tu -- han.
+  Al -- le -- "lu-"
+
+  han.
+  Tu -- han \tweak X-offset #-0.8 "Ma-" ha Ka -- sih,
+  ka -- mi pu -- ji se -- la -- ma -- nya.
+  Al -- le -- lu -- ya!
 }
 
 AltoLyricsTwo = \lyricmode {
@@ -494,7 +618,7 @@ AltoLyricsTwo = \lyricmode {
 
 TenorLyricsOne = \lyricmode {
   ba -- gi yang ber -- se -- ru -- se -- ru
-  Kau ja -- wab de -- ngan cin -- ta.
+  \markup\undertie "Kau" ja -- wab de -- ngan cin -- ta.
 
   Pu -- ji Tu -- han Ma -- ha Ka -- sih,
   na -- ma -- Mu ku -- dus dan mu -- "li-"
@@ -502,36 +626,44 @@ TenorLyricsOne = \lyricmode {
   \repeat unfold 20 \skip1
 
   Eng -- kau Ba -- pa yang se -- ti -- a,
-  te -- rang ba -- gi du -- nia.
+  te -- rang ba -- gi du -- \markup\concat { \undertie "nia" "." }
 
   Pu -- ji Tu -- han Ma -- ha Ka -- sih,
   na -- ma -- Mu ku -- dus dan mu -- "li-"
-
-  \repeat unfold 20 \skip1
-  \set alignBelowContext = "TenorStaff"
-  Al -- le --
 }
 
 BassLyricsBlokB = \lyricmode {
   Ka -- \tweak X-offset #-0.75 sih -- Mu me -- nga -- lir
   me -- nyem -- buh -- kan ji -- wa,
   ba --   gi yang \tweak X-offset #0 ber -- \tweak X-offset #0 se -- ru "- se " -- ru
-  Kau ja -- wab de -- ngan cin -- ta.
+  \markup\undertie "Kau" ja -- wab de -- ngan cin -- ta.
 }
 
 BassLyricsBlokF = \lyricmode {
   Ti -- a -- da yang se -- \tweak X-offset #-1.7 ban -- ding
   cin -- ta -- \tweak X-offset #-0.5 Mu sem -- pur -- na.
   Eng -- kau Ba -- pa yang se -- ti -- a,
-  te -- rang ba -- gi du -- nia.
+  te -- rang ba -- gi du -- \markup\concat { \undertie "nia" "." }
 }
 
 BassLyricsBlokC = \lyricmode {
   Pu -- ji, pu -- ji Tu -- han
   Al -- lah Ma -- ha Ka -- sih,
   na -- ma -- Mu ku -- dus dan mu -- "li-" a,
-  Kau yang se -- ti -- a se -- la -- ma -- nya,
+  \markup\undertie "Kau" yang se -- ti -- a se -- la -- ma -- nya,
   ka -- mi sem -- bah de -- ngan su -- ka -- ci -- ta.
+}
+
+BassLyricsBlokH = \lyricmode {
+  Al -- le -- lu -- ya, al -- le -- lu -- ya,
+  ka -- sih -- Mu tak ber -- ke -- su -- dah -- an.
+  Al -- le -- lu -- ya, al -- le -- lu -- ya,
+  ke -- mu -- \markup\undertie "lia" -- an ba -- gi Tu -- han.
+
+  han.
+  Tu -- han \tweak X-offset #-0.8 "Ma-" ha Ka -- sih,
+  ka -- mi pu -- ji se -- la -- ma -- nya.
+  Al -- le -- lu -- ya!
 }
 
 BassLyricsOne = \lyricmode {
@@ -539,6 +671,7 @@ BassLyricsOne = \lyricmode {
   \BassLyricsBlokC
   \BassLyricsBlokF
   \BassLyricsBlokC __
+  \BassLyricsBlokH
 }
 
 BassLyricsTwo = \lyricmode {
@@ -547,22 +680,23 @@ BassLyricsTwo = \lyricmode {
   \BassLyricsBlokC
   \BassLyricsBlokF
   \BassLyricsBlokC
+  \BassLyricsBlokH
 }
 
 % Chords
 Chords = \chordmode {
   \set chordChanges = ##f
-  \partial 2 s2 |
-  e1:maj7 |
-  dis2:m7 gis2:m |
-  cis2:m7 fis2 |
-  b2:maj7 <b dis' fis' gis'>2|
-  ais2:dim dis2 |
-  gis1:m |
-  cis1:m |
-  fis1:6 |
-  b2:3.5.9 b2 |
-  b2:3.5.9 b2 |
+  % \partial 2 s2 |
+  %   e1:maj7 |
+  %   dis2:m7 gis2:m |
+  %   cis2:m7 fis2 |
+  %   b2:maj7 <b dis' fis' gis'>2|
+  %   ais2:dim dis2 |
+  %   gis1:m |
+  %   cis1:m |
+  %   fis1:6 |
+  %   b2:3.5.9 b2 |
+  %   b2:3.5.9 b2 |
 
   % Blok A
   \temporary \override ChordName.extra-offset = #'(0 . -0.8)
@@ -647,4 +781,16 @@ Chords = \chordmode {
   b2 gis2:7 |
   cis2:m fis2:7 |
   b1 |
+
+  % Blok H
+  \revert ChordName.extra-offset
+  e1 fis dis:m fis:m
+  cis1:m fis e2:6 fis2
+  % Volta 1
+  b1
+  % Volta 2
+  b2 gis:m
+
+  cis1:m7 fis e2:6 fis2
+  b1 e:m b:3.5.9 s1
 }
