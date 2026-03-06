@@ -2,16 +2,34 @@
 % -*- master: Tuhan_Maha_Kasih.ly;
 
 % SETTINGS
-SolmisasiStaffSize = 22
+SolmisasiStaffSize = #(* 20 (/ 240 210))
 MIDIExtension = "midi"
 ExportMIDI = ##t
+
+\paper {
+  %#(set-paper-size '(cons (* 210 mm) (* 1000 mm)))
+  %#(set-paper-size "16:9")
+  indent = 0\mm
+  short-indent = 0\mm
+  right-margin = 10\mm
+  top-margin = 0\mm
+  bottom-margin = 5\mm
+  last-bottom-spacing.padding = 2
+  bookTitleMarkup = ##f
+  oddFooterMarkup = ##f
+  evenFooterMarkup = ##f
+  oddHeaderMarkup = ##f
+  evenHeaderMarkup = ##f
+  ragged-last = ##f
+  %system-system-spacing.padding = #5
+}
 
 % Global
 
 Global = {
   \once\omit SolmisasiKeyChangeMark
   \override Score.Beam.extra-offset = #'(0 . -0.3)
-  \disallowPageBreak
+  %\disallowPageBreak
   \numericTimeSignature
   \time 4/4
   \set Score.beamExceptions = #'()
@@ -34,10 +52,10 @@ Global = {
   % Blok A
   \temporary \override Score.RehearsalMark.X-offset = #-2.5
   \mark\default
-  \after 1*15/4 \break s1*4 |
+  \after 1*15/4 \break  s1*4 |
   \after 1*3 \set Score.proportionalNotationDuration = #1/2
   \after 1*4 \unset Score.proportionalNotationDuration
-  s1*4 \bar "||" \break |
+  s1*4 \bar "||" \break  |
 
   % Blok B
   \mark\default
@@ -49,15 +67,16 @@ Global = {
   s1*4 |
   \after 1*3 \set Score.proportionalNotationDuration = #1/2
   \after 1*4 \unset Score.proportionalNotationDuration
-  s1*4 \bar "||" \break |
+  s1*4 \bar "||" \break|
 
   % Blok C
   \once\override Score.RehearsalMark.extra-offset = #'(0 . -2)
   \mark\default
-  s1*5 \pageBreakPDFOnly |
+  s1*5 \break |
   s1*5 \bar "||" \break
 
   % Blok D
+  \once\override Score.RehearsalMark.extra-offset = #'(0 . 2)
   \mark "Interlude" \default
   \disallowLineBreak
   s1*10 \bar "||" \break
@@ -65,6 +84,7 @@ Global = {
 
   % Blok E
   %\override Score.RehearsalMark.X-offset = #-2.5
+  %\once\override Score.RehearsalMark.extra-offset = #'(0 . -2)
   \mark\default
   \after 1*15/4 \break s1*4 |
   \after 1*3 \set Score.proportionalNotationDuration = #1/2
@@ -81,7 +101,7 @@ Global = {
   s1*4 |
   \after 1*3 \set Score.proportionalNotationDuration = #1/2
   \after 1*4 \unset Score.proportionalNotationDuration
-  s1*4 \bar "||" \pageBreakPDFOnly
+  s1*4 \bar "||" \break
 
   % Blok G
   \override Score.RehearsalMark.extra-offset = #'(0 . -2)
@@ -96,7 +116,7 @@ Global = {
   \revert Score.RehearsalMark.X-offset
   \mark\default
   \repeat volta 2 {
-    \after 1*4 \pageBreakPDFOnly s1*7
+    \after 1*4 \break s1*7
     \alternative {
       \volta 1 { s1 \noBreak }
       \volta 2 { s1 \break }
@@ -108,60 +128,62 @@ Global = {
   s1*7 \bar "|."
 }
 
-InstrumentCueInstrumentName = \markup\null
-InstrumentCueShortInstrumentName = \markup\null
-InstrumentCueMusic = {
-  \numericTimeSignature
-  \time 4/4
-  \key b \major
-  % \partial 2 r8 dis''8 fis''8 b''8 | % 1
-  %   dis'''2 cis'''8 dis'''8 cis'''8 b''8 | % 2
-  %   cis'''2 r8 dis''8 gis''8 ais''8 | % 3
-  %   b''2 ais''8 b''8 ais''8 gis''8 | % 4
-  %   ais''2 r8 dis'''8 dis'''8 dis'''8 | % 5
-  %   cis'''2 cis'''8 e'''8 dis'''8 cis'''8 | % 6
-  %   b''2 r8 gis''8 ais''8 b''8 | % 7
-  %   fis'''4 e'''4 r8 gis''8 fisis''8 gis''8 | % 8
-  %   dis'''4 r4 dis'''4 r4 | % 9
-  %   b''1 ( | % 10
-  %   b''2.) r4 | % 11
+% InstrumentCueInstrumentName = \markup\null
+% InstrumentCueShortInstrumentName = \markup\null
+% InstrumentCueMusic = {
+%   \numericTimeSignature
+%   \time 4/4
+%   \key b \major
+% \partial 2 r8 dis''8 fis''8 b''8 | % 1
+%   dis'''2 cis'''8 dis'''8 cis'''8 b''8 | % 2
+%   cis'''2 r8 dis''8 gis''8 ais''8 | % 3
+%   b''2 ais''8 b''8 ais''8 gis''8 | % 4
+%   ais''2 r8 dis'''8 dis'''8 dis'''8 | % 5
+%   cis'''2 cis'''8 e'''8 dis'''8 cis'''8 | % 6
+%   b''2 r8 gis''8 ais''8 b''8 | % 7
+%   fis'''4 e'''4 r8 gis''8 fisis''8 gis''8 | % 8
+%   dis'''4 r4 dis'''4 r4 | % 9
+%   b''1 ( | % 10
+%   b''2.) r4 | % 11
 
-  % Blok A-C
-  s1*8 s1*8 s1*10
+% Blok A-C
+% s1*8 s1*8 s1*10
 
-  % Blok D
-  \repeat unfold 8 {
-    \temporary\override SolmisasiNoteHead.style = #'slash
-    \temporary\override SolmisasiNoteHead.font-size = #-0.5
-    \temporary\override SolmisasiNoteHead.font-family = #'music
-    \after 4 {
-      \revert SolmisasiNoteHead.font-family
-      \revert SolmisasiNoteHead.style
-      \revert SolmisasiNoteHead.font-size
-    }
-    e''1
-  }
-  \repeat unfold 2 {
-    \temporary\override SolmisasiNoteHead.style = #'slash
-    \temporary\override SolmisasiNoteHead.font-size = #-0.5
-    \temporary\override SolmisasiNoteHead.font-family = #'music
-    \after 4 {
-      \revert SolmisasiNoteHead.font-family
-      \revert SolmisasiNoteHead.style
-      \revert SolmisasiNoteHead.font-size
-    }
-    e''2
-    \temporary\override SolmisasiNoteHead.style = #'slash
-    \temporary\override SolmisasiNoteHead.font-size = #-0.5
-    \temporary\override SolmisasiNoteHead.font-family = #'music
-    \after 4 {
-      \revert SolmisasiNoteHead.font-family
-      \revert SolmisasiNoteHead.style
-      \revert SolmisasiNoteHead.font-size
-    }
-    e''2
-  }
-}
+% Blok D
+% \repeat unfold 8 {
+%     \temporary\override SolmisasiNoteHead.style = #'slash
+%     \temporary\override SolmisasiNoteHead.font-size = #-0.5
+%     \temporary\override SolmisasiNoteHead.font-family = #'music
+%     \after 4 {
+%       \revert SolmisasiNoteHead.font-family
+%       \revert SolmisasiNoteHead.style
+%       \revert SolmisasiNoteHead.font-size
+%     }
+%     e''1
+%   }
+%   \repeat unfold 2 {
+%     \temporary\override SolmisasiNoteHead.style = #'slash
+%     \temporary\override SolmisasiNoteHead.font-size = #-0.5
+%     \temporary\override SolmisasiNoteHead.font-family = #'music
+%     \after 4 {
+%       \revert SolmisasiNoteHead.font-family
+%       \revert SolmisasiNoteHead.style
+%       \revert SolmisasiNoteHead.font-size
+%     }
+%     e''2
+%     \temporary\override SolmisasiNoteHead.style = #'slash
+%     \temporary\override SolmisasiNoteHead.font-size = #-0.5
+%     \temporary\override SolmisasiNoteHead.font-family = #'music
+%     \after 4 {
+%       \revert SolmisasiNoteHead.font-family
+%       \revert SolmisasiNoteHead.style
+%       \revert SolmisasiNoteHead.font-size
+%     }
+%     e''2
+%   }
+%\override SolmisasiRest.transparent = ##t
+%   \repeat unfold 10 {r4 r4 r4 r4}
+% }
 
 % Vocals
 
@@ -509,7 +531,7 @@ BassMusic = {
 
   % Blok G
   b'4 ( ais'8 gis'8 ) fis'2 | % 28
-  b'4 ais'8 gis'8 fis'4. r8 | % 29
+  b8 8 dis'( cis') b4. r8 | % 29
   gis'4. ( fis'8 ) eis'2 | % 30
   fis'8 eis'8 fis'8 ( gis'8 ) ais'4 b'8 ais'8 | % 31
   gis'4. gis'8 gis'8 ais'8 b'8 gis'8 | % 32
@@ -687,6 +709,8 @@ BassLyricsTwo = \lyricmode {
 % Chords
 Chords = \chordmode {
   \set chordChanges = ##f
+
+  \omit BarLine
   % \partial 2 s2 |
   %   e1:maj7 |
   %   dis2:m7 gis2:m |
@@ -735,7 +759,7 @@ Chords = \chordmode {
   b1 |
 
   % Blok D
-  \temporary \override ChordName.extra-offset = #'(0 . -1.5)
+  \after 4 \undo\omit BarLine
   e1 |
   b1/dis |
   d1 |
@@ -745,12 +769,12 @@ Chords = \chordmode {
   cis1:dim |
   fis1 |
   b2:3.5.9 b2 |
-  b2:3.5.9 b2 |
-  \revert ChordName.extra-offset
+  b2:3.5.9 b2 \bar "||" |
+  %\revert ChordName.extra-offset
 
   % Blok E
   \temporary \override ChordName.extra-offset = #'(0 . -0.8)
-  b1 |
+  \after 2 \omit BarLine b1 |
   cis1:m |
   fis1 |
   b1 |
@@ -786,12 +810,14 @@ Chords = \chordmode {
   % Blok H
   \revert ChordName.extra-offset
   e1 fis dis:m fis:m
+  \temporary \override ChordName.extra-offset = #'(0 . 0.5)
   cis1:m fis e2:6 fis2
   % Volta 1
   b1
   % Volta 2
   b2 gis:m
 
+  \revert ChordName.extra-offset
   cis1:m7 fis e2:6 fis2
   b1 e:m b:3.5.9 s1
 }

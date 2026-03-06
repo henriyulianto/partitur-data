@@ -46,6 +46,8 @@ SolmisasiLayout = \layout {
   }
   \context {
     \ChordNames
+    \consists "Bar_engraver"
+    \override BarLine.bar-extent = #'(-1 . 3)
     \override ChordName.font-size = #-1.25
     \override ChordName.color = "#333333"
   }
