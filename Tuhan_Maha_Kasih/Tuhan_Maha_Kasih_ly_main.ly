@@ -18,7 +18,8 @@ Global = {
   \set Score.beatBase = #1/4
   \set Score.beatStructure = 1,1,1,1
   \key b \major
-  \tag #'midi { \tempo 4 = 66 }
+  \once\omit Score.MetronomeMark
+  \tempo 4 = 66
 
   % Ibtro
   %   \mark "" \markup\bold\smallCaps\smaller "Intro:"
