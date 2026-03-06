@@ -13,9 +13,9 @@ workInfo:
   externalURL: ""
 
 # CDN configuration for audio files
-# cdn:
-#   provider: "archive.org"
-#   identifier: "partitur-audio-data"
+cdn:
+  provider: "github" # "archive.org"
+  identifier: "partitur-data" # "partitur-audio-data"
 
 files:
   audioPath: "Tuhan_Maha_Kasih.m4a"
