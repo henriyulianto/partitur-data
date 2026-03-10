@@ -10,12 +10,14 @@
 % modification of the procedure "chordRootNamer"
 %---- Definition of chord alterations -------
 #(define (JazzChordNames pitch majmin)	;majmin is a required argument for "chordNamer", but not used here
-   (let* ((alt (ly:pitch-alteration pitch)))
+   (let* ((alt (ly:pitch-alteration pitch))
+          (letter (vector-ref #("C" "D" "E" "F" "G" "A" "B")
+                              (ly:pitch-notename pitch)))
+          (flatStr (vector-ref #("es" "es" "s" "es" "es" "s" "es")
+                               (ly:pitch-notename pitch))))
      (make-line-markup
       (list
-       (make-bold-markup
-        (vector-ref #("C" "D" "E" "F" "G" "A" "B")
-                    (ly:pitch-notename pitch)))
+       (make-simple-markup letter)
        ;; If it's natural, do nothing
        (if (= alt 0)
            (make-line-markup (list empty-markup))
@@ -25,7 +27,8 @@
                 (list
                  (make-hspace-markup 0.0)
                  ;(make-small-markup (make-raise-markup 0.4
-                 (make-bold-markup "es")))
+                 (make-simple-markup flatStr)
+                 ))
                ;; or handle adding the sharp symbol
                (make-line-markup
                 (list
@@ -65,78 +68,79 @@
 %	degrés 			markup				% écriture
 JazzChordsList = {
   % minor third chords - 3 notes
-  <c es ges>1-\markup { "dim" } % :dim
-  <c es g>-\markup { \acMin #"" } % :m
+  <c es ges>1-\markup { \normal-weight "dim" } % :dim
+  <c es g>-\markup { \normal-weight \acMin #"" } % :m
 
   % minor third chords - 4 notes
-  <c es ges beses>-\markup { \super "7dim" } % :dim7
-  <c es gis>-\markup { \acMin #"aug" } % :m5+ (Ab/C)
-  <c es g a>-\markup { \acMin #"6" } % :m6
-  <c es ges bes>-\markup { \concat { "m7" \super "(b5)" } } % :m7.5-
-  %<c es ges bes>-\markup { "ø" } % :m7.5-
-  <c es g bes>-\markup { "m7" } % :m7
-  <c es gis bes>-\markup { \acMin #"7 #5" } % :m7.5+
-  <c es g b>-\markup { \acMin #"M7" } % :m7+
-  <c es g d'>-\markup { \acMin #"add9" } % :m5.9
+  <c es ges beses>-\markup { \normal-weight \super "7dim" } % :dim7
+  <c es gis>-\markup { \normal-weight \acMin #"aug" } % :m5+ (Ab/C)
+  <c es g a>-\markup { \normal-weight \acMin #"6" } % :m6
+  <c es ges bes>-\markup { \normal-weight \concat { "m7" \super "(b5)" } } % :m7.5-
+  %<c es ges bes>-\markup { \normal-weight "ø" } % :m7.5-
+  <c es g bes>-\markup { \normal-weight "m7" } % :m7
+  <c es gis bes>-\markup { \normal-weight \acMin #"7 #5" } % :m7.5+
+  <c es g b>-\markup { \normal-weight \acMin #"M7" } % :m7+
+  <c es g d'>-\markup { \normal-weight \acMin #"add9" } % :m5.9
 
   % minor third chords - 5+ notes
-  <c es g a d'>-\markup { \acMin #"6/9" } % :m6.9
-  <c es g bes des'>-\markup { \acMin #"7(b9)" } % :m7.9-
-  <c es g bes d'>-\markup { \acMin #"9" } % :m9
-  <c es ges bes d'>-\markup { \acMin #"9(b5)" } % :m9.5-
-  <c es g b d'>-\markup { \acMin #"9(M7)" } % :m9.7+
-  <c es g bes dis'>-\markup { \acMin #"7(#9)" } % :m7.9+
-  <c es g bes f'>-\markup { \acMin #"7(add 11)" } % :m7.11
-  <c es g bes a'>-\markup { \acMin #"7(add 13)" } % :m7.13
-  <c es g bes d' f'>-\markup { \acMin #"11" } % :m11
-  <c es ges bes d' f'>-\markup { \acMin #"11(b5)" } % :m11.5-
-  <c es g bes d' f' a'>-\markup { \acMin #"13" } % :m13
+  <c es g a d'>-\markup { \normal-weight \acMin #"6/9" } % :m6.9
+  <c es g bes des'>-\markup { \normal-weight \acMin #"7(b9)" } % :m7.9-
+  <c es g bes d'>-\markup { \normal-weight \acMin #"9" } % :m9
+  <c es ges bes d'>-\markup { \normal-weight \acMin #"9(b5)" } % :m9.5-
+  <c es g b d'>-\markup { \normal-weight \acMin #"9(M7)" } % :m9.7+
+  <c es g bes dis'>-\markup { \normal-weight \acMin #"7(#9)" } % :m7.9+
+  <c es g bes f'>-\markup { \normal-weight \acMin #"7(add 11)" } % :m7.11
+  <c es g bes a'>-\markup { \normal-weight \acMin #"7(add 13)" } % :m7.13
+  <c es g bes d' f'>-\markup { \normal-weight \acMin #"11" } % :m11
+  <c es ges bes d' f'>-\markup { \normal-weight \acMin #"11(b5)" } % :m11.5-
+  <c es g bes d' f' a'>-\markup { \normal-weight \acMin #"13" } % :m13
 
   % major third chords - 3 notes
-  <c e ges>-\markup { \super "b5" } % :5-
-  <c e gis>-\markup { \super "aug" } % :aug
+  <c e ges>-\markup { \normal-weight \super "b5" } % :5-
+  <c e gis>-\markup { \normal-weight \super "aug" } % :aug
 
-  <c e g a>-\markup { "6" }
+  <c e g a>-\markup { \normal-weight "6" }
 
   % major third chords - 4 notes
   <c e g a d'>-\markup {
+    \normal-weight
     \super "6"
     \hspace #-0.5 \raise #0.7 \tiny "/"
     \hspace #-0.5 \tiny "9"
   }	% :6.9
   % special chords
-  <c e g bes>-\markup { "7" } % :7
-  <c e g bes c'>-\markup { \super "7(Alt)" } % :c:8
-  <c e g b>-\markup { "M7" } % :maj
-  <c e ges b>-\markup { \acMaj #"7b5" } % :maj.5-
-  <c e gis b>-\markup { \acMaj #"7#5" } % :maj.5+
+  <c e g bes>-\markup { \normal-weight "7" } % :7
+  <c e g bes c'>-\markup { \normal-weight \super "7(Alt)" } % :c:8
+  <c e g b>-\markup { \normal-weight "M7" } % :maj
+  <c e ges b>-\markup { \normal-weight \acMaj #"7b5" } % :maj.5-
+  <c e gis b>-\markup { \normal-weight \acMaj #"7#5" } % :maj.5+
 
-  <c e ges bes>-\markup { \super "7(b5)" } % :7.5-
-  <c e gis bes>-\markup { \super "7(#5)" } % :7.5+
-  <c e g d'>-\markup { "add9" } % :3.5.9
+  <c e ges bes>-\markup { \normal-weight \super "7(b5)" } % :7.5-
+  <c e gis bes>-\markup { \normal-weight \super "7(#5)" } % :7.5+
+  <c e g d'>-\markup { \normal-weight "add9" } % :3.5.9
 
   % major third chords - 5+ notes
-  <c e g b d'>-\markup { \acMaj #"9" } % :maj9
-  <c e g bes des'>-\markup { \super "7(b9)" } % :9-
-  <c e ges bes des'>-\markup { \override #'(baseline-skip . 2) \acAlt #"7" #"b9" #"b5" } % :9-.5-
-  <c e gis bes des'>-\markup { \override #'(baseline-skip . 2) \acAlt #"7" #"b9" #"#5" } % :9-.5+
-  <c e g bes d' fis'>-\markup { \super "9(#11)" } % :9.11+
-  <c e g bes dis'>-\markup { \super "7(#9)" } % :9+
-  <c e ges bes dis'>-\markup { \override #'(baseline-skip . 2) \acAlt #"7" #"#9" #"b5" } % :9+.5-
-  <c e gis bes dis'>-\markup { \override #'(baseline-skip . 2) \acAlt #"7" #"#9" #"#5" } % :9+.5+
-  <c e g bes fis'>-\markup { \super "7(#11)" } % :7.11+
-  <c e g bes aes'>-\markup { \super "7(b13)" } % :7.13-
-  <c e g b d' f'>-\markup { \acMaj #"11" } % :maj11
-  <c e g b d' a' >-\markup { \acMaj #"13" } % :maj13
-  <c e g bes d' a' >-\markup { \super "13" } % :13
-  <c e g bes des' a' >-\markup { \super "13(b9)" } % :13.9-
+  <c e g b d'>-\markup { \normal-weight \acMaj #"9" } % :maj9
+  <c e g bes des'>-\markup { \normal-weight \super "7(b9)" } % :9-
+  <c e ges bes des'>-\markup { \normal-weight \override #'(baseline-skip . 2) \acAlt #"7" #"b9" #"b5" } % :9-.5-
+  <c e gis bes des'>-\markup { \normal-weight \override #'(baseline-skip . 2) \acAlt #"7" #"b9" #"#5" } % :9-.5+
+  <c e g bes d' fis'>-\markup { \normal-weight \super "9(#11)" } % :9.11+
+  <c e g bes dis'>-\markup { \normal-weight \super "7(#9)" } % :9+
+  <c e ges bes dis'>-\markup { \normal-weight \override #'(baseline-skip . 2) \acAlt #"7" #"#9" #"b5" } % :9+.5-
+  <c e gis bes dis'>-\markup { \normal-weight \override #'(baseline-skip . 2) \acAlt #"7" #"#9" #"#5" } % :9+.5+
+  <c e g bes fis'>-\markup { \normal-weight \super "7(#11)" } % :7.11+
+  <c e g bes aes'>-\markup { \normal-weight \super "7(b13)" } % :7.13-
+  <c e g b d' f'>-\markup { \normal-weight \acMaj #"11" } % :maj11
+  <c e g b d' a' >-\markup { \normal-weight \acMaj #"13" } % :maj13
+  <c e g bes d' a' >-\markup { \normal-weight \super "13" } % :13
+  <c e g bes des' a' >-\markup { \normal-weight \super "13(b9)" } % :13.9-
 
   % sustained chords
-  <c d g>-\markup { \super "sus2" } % :sus2
-  <c f g>-\markup { \super "sus" } % :sus4
-  <c f g bes>-\markup { \super "7sus" }  % :sus4.7
-  <c f g bes d'>-\markup { \super "9sus" }  % :sus4.7.9
-  <c f g dis'>-\markup { \super "#9sus" }  % :sus4.9+
+  <c d g>-\markup { \normal-weight "sus2" } % :sus2
+  <c f g>-\markup { \normal-weight "sus" } % :sus4
+  <c f g bes>-\markup { \normal-weight \super "7sus" }  % :sus4.7
+  <c f g bes d'>-\markup { \normal-weight \super "9sus" }  % :sus4.7.9
+  <c f g dis'>-\markup { \normal-weight \super "#9sus" }  % :sus4.9+
 }
 
 % variable needed to use chord exceptions

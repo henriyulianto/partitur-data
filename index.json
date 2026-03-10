@@ -1,0 +1,406 @@
+[
+  {
+    "slug": "Bersama_Kristus",
+    "workInfo": {
+      "title": "Bersama Kristus",
+      "fullTitle": "Bersama Kristus",
+      "composer": "Henri Yulianto",
+      "arranger": "Henri Yulianto",
+      "lyricist": "Henri Yulianto",
+      "instrument": "2 Suara",
+      "notationType": "not angka",
+      "workType": "Komposisi",
+      "workId": "Bersama_Kristus",
+      "movementName": "2 Suara",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "archive.org",
+      "identifier": "partitur-audio-data"
+    },
+    "files": {
+      "audioPath": "Bersama_Kristus.m4a",
+      "svgPath": "Bersama_Kristus.svg",
+      "syncPath": "Bersama_Kristus.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 259.18,
+      "totalMeasures": 126,
+      "lastMeasureDuration": "1/4",
+      "visualLeadTimeSeconds": 0
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "https://archive.org/download/partitur-audio-data/Bersama_Kristus.m4a",
+      "pdf": "/partitur-data/Bersama_Kristus/exports/Bersama_Kristus.pdf",
+      "svg": "/partitur-data/Bersama_Kristus/exports/Bersama_Kristus.svg",
+      "sync": "/partitur-data/Bersama_Kristus/exports/Bersama_Kristus.yaml"
+    }
+  },
+  {
+    "slug": "Bersama_Yesus",
+    "workInfo": {
+      "title": "Bersama Yesus",
+      "fullTitle": "Bersama Yesus",
+      "composer": "Grego Julius",
+      "arranger": "Henri Yulianto",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "Bersama_Yesus",
+      "movementName": "SATB",
+      "youtubeURL": "https://youtu.be/AXzFbW3ziJc?si=tFbsyq1U2YTbdlyN",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "archive.org",
+      "identifier": "partitur-audio-data"
+    },
+    "files": {
+      "audioPath": "Bersama_Yesus.m4a",
+      "svgPath": "Bersama_Yesus.svg",
+      "syncPath": "Bersama_Yesus.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 203.571,
+      "totalMeasures": 94,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "https://archive.org/download/partitur-audio-data/Bersama_Yesus.m4a",
+      "pdf": "/partitur-data/Bersama_Yesus/exports/Bersama_Yesus.pdf",
+      "svg": "/partitur-data/Bersama_Yesus/exports/Bersama_Yesus.svg",
+      "sync": "/partitur-data/Bersama_Yesus/exports/Bersama_Yesus.yaml"
+    }
+  },
+  {
+    "slug": "Bunda_Maria_Doakan_Aku",
+    "workInfo": {
+      "title": "Bunda Maria Doakan Aku",
+      "fullTitle": "Bunda Maria Doakan Aku",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas (SATB), Henri Yulianto (Musik)",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen (Musik)",
+      "workId": "Bunda_Maria_Doakan_Aku",
+      "movementName": "SATB",
+      "youtubeURL": "https://youtu.be/U2duWOF_yMk?si=JNl1mzDdyZnafJ0r",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "archive.org",
+      "identifier": "partitur-audio-data"
+    },
+    "files": {
+      "audioPath": "Bunda_Maria_Doakan_Aku.m4a",
+      "svgPath": "Bunda_Maria_Doakan_Aku.svg",
+      "syncPath": "Bunda_Maria_Doakan_Aku.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 217,
+      "totalMeasures": 65,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "https://archive.org/download/partitur-audio-data/Bunda_Maria_Doakan_Aku.m4a",
+      "pdf": "/partitur-data/Bunda_Maria_Doakan_Aku/exports/Bunda_Maria_Doakan_Aku.pdf",
+      "svg": "/partitur-data/Bunda_Maria_Doakan_Aku/exports/Bunda_Maria_Doakan_Aku.svg",
+      "sync": "/partitur-data/Bunda_Maria_Doakan_Aku/exports/Bunda_Maria_Doakan_Aku.yaml"
+    }
+  },
+  {
+    "slug": "Jasa_Para_Martir",
+    "workInfo": {
+      "title": "Jasa Para Martir",
+      "fullTitle": "Jasa Para Martir",
+      "composer": "Oktavianus Debritta Pangayom W.",
+      "arranger": "Henri Yulianto",
+      "lyricist": "Oktavianus Debritta Pangayom W.",
+      "instrument": "SATB",
+      "notationType": "notasi kombinasi",
+      "workType": "Aransemen",
+      "workId": "Jasa_Para_Martir",
+      "movementName": "SATB",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "archive.org",
+      "identifier": "partitur-audio-data"
+    },
+    "files": {
+      "audioPath": "Jasa_Para_Martir.m4a",
+      "svgPath": "Jasa_Para_Martir.svg",
+      "syncPath": "Jasa_Para_Martir.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 133.9,
+      "totalMeasures": 52,
+      "lastMeasureDuration": "3/4",
+      "visualLeadTimeSeconds": 0.1
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "https://archive.org/download/partitur-audio-data/Jasa_Para_Martir.m4a",
+      "pdf": "/partitur-data/Jasa_Para_Martir/exports/Jasa_Para_Martir.pdf",
+      "svg": "/partitur-data/Jasa_Para_Martir/exports/Jasa_Para_Martir.svg",
+      "sync": "/partitur-data/Jasa_Para_Martir/exports/Jasa_Para_Martir.yaml"
+    }
+  },
+  {
+    "slug": "Kerinduan",
+    "workInfo": {
+      "title": "Kerinduan",
+      "fullTitle": "Kerinduan",
+      "composer": "Grego Julius",
+      "arranger": "William Ias (SATB), Chrisantyo Lucas (Musik)",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "Kerinduan",
+      "movementName": "SATB",
+      "youtubeURL": "https://youtu.be/OfKrqv7lfOg?si=EiwFTLIrLE8Jah8O",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "archive.org",
+      "identifier": "partitur-audio-data"
+    },
+    "files": {
+      "audioPath": "Kerinduan.m4a",
+      "svgPath": "Kerinduan.svg",
+      "syncPath": "Kerinduan.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 268.333,
+      "totalMeasures": 78,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.1
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "https://archive.org/download/partitur-audio-data/Kerinduan.m4a",
+      "pdf": "/partitur-data/Kerinduan/exports/Kerinduan.pdf",
+      "svg": "/partitur-data/Kerinduan/exports/Kerinduan.svg",
+      "sync": "/partitur-data/Kerinduan/exports/Kerinduan.yaml"
+    }
+  },
+  {
+    "slug": "Marilah_Kita_Puji_Tuhan_Alleluya",
+    "workInfo": {
+      "title": "Marilah Kita Puji Tuhan, Alleluya!",
+      "fullTitle": "Marilah Kita Puji Tuhan, Alleluya!",
+      "composer": "Henri Yulianto",
+      "arranger": "Henri Yulianto",
+      "lyricist": "Henri Yulianto",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Komposisi",
+      "workId": "Marilah_Kita_Puji_Tuhan_Alleluya",
+      "movementName": "SATB",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "archive.org",
+      "identifier": "partitur-audio-data"
+    },
+    "files": {
+      "audioPath": "Marilah_Kita_Puji_Tuhan_Alleluya.m4a",
+      "svgPath": "Marilah_Kita_Puji_Tuhan_Alleluya.svg",
+      "syncPath": "Marilah_Kita_Puji_Tuhan_Alleluya.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 136.2,
+      "totalMeasures": 106,
+      "lastMeasureDuration": "3/4",
+      "visualLeadTimeSeconds": 0.1
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "https://archive.org/download/partitur-audio-data/Marilah_Kita_Puji_Tuhan_Alleluya.m4a",
+      "pdf": "/partitur-data/Marilah_Kita_Puji_Tuhan_Alleluya/exports/Marilah_Kita_Puji_Tuhan_Alleluya.pdf",
+      "svg": "/partitur-data/Marilah_Kita_Puji_Tuhan_Alleluya/exports/Marilah_Kita_Puji_Tuhan_Alleluya.svg",
+      "sync": "/partitur-data/Marilah_Kita_Puji_Tuhan_Alleluya/exports/Marilah_Kita_Puji_Tuhan_Alleluya.yaml"
+    }
+  },
+  {
+    "slug": "Puji_dan_Syukur",
+    "workInfo": {
+      "title": "Puji dan Syukur",
+      "fullTitle": "Puji dan Syukur - Himne PNUKI 1984",
+      "composer": "Binsar Sitompul",
+      "arranger": "Frans Haryadi",
+      "lyricist": "Binsar Sitompul",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "Puji_dan_Syukur",
+      "movementName": "SATB",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "archive.org",
+      "identifier": "partitur-audio-data"
+    },
+    "files": {
+      "audioPath": "Puji_dan_Syukur.m4a",
+      "svgPath": "Puji_dan_Syukur.svg",
+      "syncPath": "Puji_dan_Syukur.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 103.5,
+      "totalMeasures": 36,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.1
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "https://archive.org/download/partitur-audio-data/Puji_dan_Syukur.m4a",
+      "pdf": "/partitur-data/Puji_dan_Syukur/exports/Puji_dan_Syukur.pdf",
+      "svg": "/partitur-data/Puji_dan_Syukur/exports/Puji_dan_Syukur.svg",
+      "sync": "/partitur-data/Puji_dan_Syukur/exports/Puji_dan_Syukur.yaml"
+    }
+  },
+  {
+    "slug": "Tuhan_Maharahim",
+    "workInfo": {
+      "title": "Tuhan Maharahim",
+      "fullTitle": "Tuhan Maharahim",
+      "composer": "Julia Ward Howe",
+      "arranger": "Henri Yulianto",
+      "lyricist": "A. Hari Kustono, Pr. (saduran)",
+      "instrument": "SATB",
+      "additionalInfo": "Judul asli: <i>Battle Hymn of the Republic</i>",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "Tuhan_Maharahim",
+      "movementName": "SATB",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "archive.org",
+      "identifier": "partitur-audio-data"
+    },
+    "files": {
+      "audioPath": "Tuhan_Maharahim.m4a",
+      "svgPath": "Tuhan_Maharahim.svg",
+      "syncPath": "Tuhan_Maharahim.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 37.95,
+      "totalMeasures": 16,
+      "lastMeasureDuration": "3/4",
+      "visualLeadTimeSeconds": 0
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.2
+      }
+    },
+    "urls": {
+      "audio": "https://archive.org/download/partitur-audio-data/Tuhan_Maharahim.m4a",
+      "pdf": "/partitur-data/Tuhan_Maharahim/exports/Tuhan_Maharahim.pdf",
+      "svg": "/partitur-data/Tuhan_Maharahim/exports/Tuhan_Maharahim.svg",
+      "sync": "/partitur-data/Tuhan_Maharahim/exports/Tuhan_Maharahim.yaml"
+    }
+  }
+]

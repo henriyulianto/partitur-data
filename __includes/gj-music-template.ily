@@ -47,7 +47,7 @@
   }
 }
 
-#(set-global-staff-size (* (/ 10 11) 20))
+%#(set-global-staff-size (* (/ 10 11) 20))
 
 \paper {
   left-margin = 20\mm
