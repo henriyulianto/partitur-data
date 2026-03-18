@@ -5,6 +5,8 @@ test*
 !*/index.md
 !*/exports/
 
+!__unpublished/*
+
 # Ignore audio files in exports directories if config.yaml exists
 # */exports/*.m4a
 # */exports/*.mp3

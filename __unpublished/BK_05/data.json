@@ -1,0 +1,49 @@
+{
+  "slug": "BK_05",
+  "workInfo": {
+    "title": "Bapa Kami - p05",
+    "fullTitle": "Bapa Kami - p05",
+    "composer": "Grego Julius",
+    "arranger": "Chrisantyo Lucas",
+    "lyricist": "TPE",
+    "instrument": "SATB",
+    "notationType": "not angka",
+    "workType": "Salinan",
+    "workId": "BK_05",
+    "movementName": "SATB"
+  },
+  "cdn": {
+    "provider": "github",
+    "identifier": "partitur-data"
+  },
+  "files": {
+    "audioPath": "BK_05.m4a",
+    "svgPath": "BK_05.svg",
+    "syncPath": "BK_05.yaml"
+  },
+  "musicalStructure": {
+    "totalDurationSeconds": 16.286,
+    "totalMeasures": 5,
+    "lastMeasureDuration": "3/4",
+    "visualLeadTimeSeconds": 0.05
+  },
+  "measureHighlighters": {
+    "alternating": {
+      "name": "Alternating Colors",
+      "type": "alternating",
+      "colors": [
+        "lightskyblue",
+        "lightsalmon",
+        "lightgreen",
+        "lightpink"
+      ],
+      "opacity": 0.25
+    }
+  },
+  "urls": {
+    "audio": "/partitur-data/BK_05/exports/BK_05.m4a",
+    "pdf": "/partitur-data/BK_05/exports/BK_05.pdf",
+    "svg": "/partitur-data/BK_05/exports/BK_05.svg",
+    "sync": "/partitur-data/BK_05/exports/BK_05.yaml"
+  }
+}

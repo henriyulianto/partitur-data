@@ -1,0 +1,838 @@
+[
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:94:3"
+    ],
+    "on_tick": 0,
+    "off_tick": 192,
+    "pitch": 50,
+    "channel": 4,
+    "x": 10.806,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:81:3"
+    ],
+    "on_tick": 0,
+    "off_tick": 192,
+    "pitch": 57,
+    "channel": 3,
+    "x": 10.806,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:68:3"
+    ],
+    "on_tick": 0,
+    "off_tick": 192,
+    "pitch": 62,
+    "channel": 2,
+    "x": 10.806,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:55:3"
+    ],
+    "on_tick": 0,
+    "off_tick": 192,
+    "pitch": 66,
+    "channel": 0,
+    "x": 10.806,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:94:6"
+    ],
+    "on_tick": 192,
+    "off_tick": 576,
+    "pitch": 50,
+    "channel": 4,
+    "x": 14.419,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:81:6"
+    ],
+    "on_tick": 192,
+    "off_tick": 576,
+    "pitch": 57,
+    "channel": 3,
+    "x": 14.419,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:68:7"
+    ],
+    "on_tick": 192,
+    "off_tick": 576,
+    "pitch": 62,
+    "channel": 2,
+    "x": 14.419,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:55:9"
+    ],
+    "on_tick": 192,
+    "off_tick": 576,
+    "pitch": 66,
+    "channel": 0,
+    "x": 14.419,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:94:9"
+    ],
+    "on_tick": 576,
+    "off_tick": 672,
+    "pitch": 50,
+    "channel": 4,
+    "x": 21.646,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:81:9"
+    ],
+    "on_tick": 576,
+    "off_tick": 672,
+    "pitch": 57,
+    "channel": 3,
+    "x": 21.646,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:68:11"
+    ],
+    "on_tick": 576,
+    "off_tick": 672,
+    "pitch": 62,
+    "channel": 2,
+    "x": 21.646,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:55:15"
+    ],
+    "on_tick": 576,
+    "off_tick": 672,
+    "pitch": 66,
+    "channel": 0,
+    "x": 21.646,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:94:13"
+    ],
+    "on_tick": 672,
+    "off_tick": 768,
+    "pitch": 50,
+    "channel": 4,
+    "x": 24.228,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:81:13"
+    ],
+    "on_tick": 672,
+    "off_tick": 768,
+    "pitch": 57,
+    "channel": 3,
+    "x": 24.228,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:68:16"
+    ],
+    "on_tick": 672,
+    "off_tick": 768,
+    "pitch": 62,
+    "channel": 2,
+    "x": 24.228,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:55:22"
+    ],
+    "on_tick": 672,
+    "off_tick": 768,
+    "pitch": 64,
+    "channel": 0,
+    "x": 24.228,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:94:17"
+    ],
+    "on_tick": 768,
+    "off_tick": 960,
+    "pitch": 54,
+    "channel": 4,
+    "x": 27.017,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:81:17"
+    ],
+    "on_tick": 768,
+    "off_tick": 960,
+    "pitch": 57,
+    "channel": 3,
+    "x": 27.017,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:68:21"
+    ],
+    "on_tick": 768,
+    "off_tick": 960,
+    "pitch": 62,
+    "channel": 2,
+    "x": 27.017,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:55:27"
+    ],
+    "on_tick": 768,
+    "off_tick": 960,
+    "pitch": 62,
+    "channel": 0,
+    "x": 27.017,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:94:22"
+    ],
+    "on_tick": 960,
+    "off_tick": 1344,
+    "pitch": 54,
+    "channel": 4,
+    "x": 30.63,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:81:20"
+    ],
+    "on_tick": 960,
+    "off_tick": 1152,
+    "pitch": 57,
+    "channel": 3,
+    "x": 30.63,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:68:25"
+    ],
+    "on_tick": 960,
+    "off_tick": 1344,
+    "pitch": 62,
+    "channel": 2,
+    "x": 30.63,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:55:31"
+    ],
+    "on_tick": 960,
+    "off_tick": 1152,
+    "pitch": 62,
+    "channel": 0,
+    "x": 30.63,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:81:23"
+    ],
+    "on_tick": 1152,
+    "off_tick": 1344,
+    "pitch": 57,
+    "channel": 3,
+    "x": 34.243,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:68:31"
+    ],
+    "on_tick": 1152,
+    "off_tick": 1344,
+    "pitch": 62,
+    "channel": 2,
+    "x": 34.243,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:94:29"
+    ],
+    "on_tick": 1344,
+    "off_tick": 1536,
+    "pitch": 50,
+    "channel": 4,
+    "x": 37.857,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:81:26"
+    ],
+    "on_tick": 1344,
+    "off_tick": 1536,
+    "pitch": 57,
+    "channel": 3,
+    "x": 37.857,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:68:35"
+    ],
+    "on_tick": 1344,
+    "off_tick": 1536,
+    "pitch": 66,
+    "channel": 2,
+    "x": 37.857,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:55:35"
+    ],
+    "on_tick": 1344,
+    "off_tick": 1536,
+    "pitch": 69,
+    "channel": 0,
+    "x": 37.857,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:95:3"
+    ],
+    "on_tick": 1536,
+    "off_tick": 1920,
+    "pitch": 55,
+    "channel": 4,
+    "x": 42.662,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:82:3"
+    ],
+    "on_tick": 1536,
+    "off_tick": 1920,
+    "pitch": 59,
+    "channel": 3,
+    "x": 42.662,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:69:3"
+    ],
+    "on_tick": 1536,
+    "off_tick": 1920,
+    "pitch": 67,
+    "channel": 2,
+    "x": 42.662,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:56:3"
+    ],
+    "on_tick": 1536,
+    "off_tick": 2688,
+    "pitch": 71,
+    "channel": 0,
+    "x": 42.662,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:95:8"
+    ],
+    "on_tick": 1920,
+    "off_tick": 2304,
+    "pitch": 54,
+    "channel": 4,
+    "x": 47.475,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:82:6"
+    ],
+    "on_tick": 1920,
+    "off_tick": 2304,
+    "pitch": 54,
+    "channel": 3,
+    "x": 47.475,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:69:7"
+    ],
+    "on_tick": 1920,
+    "off_tick": 2304,
+    "pitch": 63,
+    "channel": 2,
+    "x": 47.475,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:95:13"
+    ],
+    "on_tick": 2304,
+    "off_tick": 2688,
+    "pitch": 52,
+    "channel": 4,
+    "x": 53.263,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:82:11"
+    ],
+    "on_tick": 2304,
+    "off_tick": 2688,
+    "pitch": 55,
+    "channel": 3,
+    "x": 53.263,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:69:13"
+    ],
+    "on_tick": 2304,
+    "off_tick": 2688,
+    "pitch": 64,
+    "channel": 2,
+    "x": 53.263,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:95:21"
+    ],
+    "on_tick": 2880,
+    "off_tick": 3072,
+    "pitch": 52,
+    "channel": 4,
+    "x": 61.69,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:82:19"
+    ],
+    "on_tick": 2880,
+    "off_tick": 3072,
+    "pitch": 62,
+    "channel": 3,
+    "x": 61.69,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:69:20"
+    ],
+    "on_tick": 2880,
+    "off_tick": 3072,
+    "pitch": 66,
+    "channel": 2,
+    "x": 61.69,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:56:11"
+    ],
+    "on_tick": 2880,
+    "off_tick": 3072,
+    "pitch": 71,
+    "channel": 0,
+    "x": 61.69,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:96:3"
+    ],
+    "on_tick": 3072,
+    "off_tick": 3264,
+    "pitch": 57,
+    "channel": 4,
+    "x": 66.495,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:83:3"
+    ],
+    "on_tick": 3072,
+    "off_tick": 3264,
+    "pitch": 64,
+    "channel": 3,
+    "x": 66.495,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:70:3"
+    ],
+    "on_tick": 3072,
+    "off_tick": 3264,
+    "pitch": 67,
+    "channel": 2,
+    "x": 66.495,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:57:3"
+    ],
+    "on_tick": 3072,
+    "off_tick": 3264,
+    "pitch": 73,
+    "channel": 0,
+    "x": 66.495,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:96:6"
+    ],
+    "on_tick": 3264,
+    "off_tick": 3456,
+    "pitch": 57,
+    "channel": 4,
+    "x": 70.108,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:83:7"
+    ],
+    "on_tick": 3264,
+    "off_tick": 3456,
+    "pitch": 62,
+    "channel": 3,
+    "x": 70.108,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:70:7"
+    ],
+    "on_tick": 3264,
+    "off_tick": 3456,
+    "pitch": 67,
+    "channel": 2,
+    "x": 70.108,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:57:10"
+    ],
+    "on_tick": 3264,
+    "off_tick": 3456,
+    "pitch": 71,
+    "channel": 0,
+    "x": 70.108,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:96:9"
+    ],
+    "on_tick": 3456,
+    "off_tick": 3648,
+    "pitch": 57,
+    "channel": 4,
+    "x": 73.721,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:83:11"
+    ],
+    "on_tick": 3456,
+    "off_tick": 3648,
+    "pitch": 61,
+    "channel": 3,
+    "x": 73.721,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:70:11"
+    ],
+    "on_tick": 3456,
+    "off_tick": 3648,
+    "pitch": 64,
+    "channel": 2,
+    "x": 73.721,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:57:14"
+    ],
+    "on_tick": 3456,
+    "off_tick": 3648,
+    "pitch": 69,
+    "channel": 0,
+    "x": 73.721,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:96:12"
+    ],
+    "on_tick": 3648,
+    "off_tick": 3840,
+    "pitch": 57,
+    "channel": 4,
+    "x": 77.715,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:83:19"
+    ],
+    "on_tick": 3648,
+    "off_tick": 3840,
+    "pitch": 60,
+    "channel": 3,
+    "x": 77.715,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:70:15"
+    ],
+    "on_tick": 3648,
+    "off_tick": 3840,
+    "pitch": 64,
+    "channel": 2,
+    "x": 77.715,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:57:18"
+    ],
+    "on_tick": 3648,
+    "off_tick": 3840,
+    "pitch": 68,
+    "channel": 0,
+    "x": 77.715,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:96:15"
+    ],
+    "on_tick": 3840,
+    "off_tick": 4224,
+    "pitch": 52,
+    "channel": 4,
+    "x": 81.943,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:83:23"
+    ],
+    "on_tick": 3840,
+    "off_tick": 4224,
+    "pitch": 59,
+    "channel": 3,
+    "x": 81.943,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:70:19"
+    ],
+    "on_tick": 3840,
+    "off_tick": 4224,
+    "pitch": 64,
+    "channel": 2,
+    "x": 81.943,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:57:24"
+    ],
+    "on_tick": 3840,
+    "off_tick": 4224,
+    "pitch": 67,
+    "channel": 0,
+    "x": 81.943,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:96:18"
+    ],
+    "on_tick": 4224,
+    "off_tick": 4416,
+    "pitch": 49,
+    "channel": 4,
+    "x": 86.756,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:83:26"
+    ],
+    "on_tick": 4224,
+    "off_tick": 4416,
+    "pitch": 55,
+    "channel": 3,
+    "x": 86.756,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:70:23"
+    ],
+    "on_tick": 4224,
+    "off_tick": 4416,
+    "pitch": 64,
+    "channel": 2,
+    "x": 86.756,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:57:28"
+    ],
+    "on_tick": 4224,
+    "off_tick": 4416,
+    "pitch": 64,
+    "channel": 0,
+    "x": 86.756,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:96:23"
+    ],
+    "on_tick": 4416,
+    "off_tick": 4608,
+    "pitch": 50,
+    "channel": 4,
+    "x": 91.31,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:83:29"
+    ],
+    "on_tick": 4416,
+    "off_tick": 4608,
+    "pitch": 55,
+    "channel": 3,
+    "x": 91.31,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:70:27"
+    ],
+    "on_tick": 4416,
+    "off_tick": 4608,
+    "pitch": 65,
+    "channel": 2,
+    "x": 91.31,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:57:32"
+    ],
+    "on_tick": 4416,
+    "off_tick": 4608,
+    "pitch": 65,
+    "channel": 0,
+    "x": 91.31,
+    "y": 6.915
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:97:3"
+    ],
+    "on_tick": 4608,
+    "off_tick": 5760,
+    "pitch": 50,
+    "channel": 4,
+    "x": 96.115,
+    "y": 28.684
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:84:3"
+    ],
+    "on_tick": 4608,
+    "off_tick": 5760,
+    "pitch": 57,
+    "channel": 3,
+    "x": 96.115,
+    "y": 20.124
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:71:3"
+    ],
+    "on_tick": 4608,
+    "off_tick": 5760,
+    "pitch": 66,
+    "channel": 2,
+    "x": 96.115,
+    "y": 15.474
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/__unpublished/BK_07/BK_07_ly_main.ly:58:3"
+    ],
+    "on_tick": 4608,
+    "off_tick": 5760,
+    "pitch": 66,
+    "channel": 0,
+    "x": 96.115,
+    "y": 6.915
+  }
+]

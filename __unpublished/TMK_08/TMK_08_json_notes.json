@@ -1,0 +1,970 @@
+[
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:110:9"
+    ],
+    "on_tick": 960,
+    "off_tick": 1152,
+    "pitch": 68,
+    "channel": 4,
+    "x": 16.594,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:86:9"
+    ],
+    "on_tick": 960,
+    "off_tick": 1152,
+    "pitch": 68,
+    "channel": 3,
+    "x": 16.594,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:61:9"
+    ],
+    "on_tick": 960,
+    "off_tick": 1152,
+    "pitch": 80,
+    "channel": 2,
+    "x": 16.594,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:36:9"
+    ],
+    "on_tick": 960,
+    "off_tick": 1152,
+    "pitch": 80,
+    "channel": 1,
+    "x": 16.594,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:110:15"
+    ],
+    "on_tick": 1152,
+    "off_tick": 1344,
+    "pitch": 68,
+    "channel": 4,
+    "x": 19.786,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:86:15"
+    ],
+    "on_tick": 1152,
+    "off_tick": 1344,
+    "pitch": 68,
+    "channel": 3,
+    "x": 19.786,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:61:16"
+    ],
+    "on_tick": 1152,
+    "off_tick": 1344,
+    "pitch": 80,
+    "channel": 2,
+    "x": 19.786,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:36:16"
+    ],
+    "on_tick": 1152,
+    "off_tick": 1344,
+    "pitch": 80,
+    "channel": 1,
+    "x": 19.786,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:110:21"
+    ],
+    "on_tick": 1344,
+    "off_tick": 1536,
+    "pitch": 70,
+    "channel": 4,
+    "x": 22.641,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:86:21"
+    ],
+    "on_tick": 1344,
+    "off_tick": 1536,
+    "pitch": 70,
+    "channel": 3,
+    "x": 22.641,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:61:23"
+    ],
+    "on_tick": 1344,
+    "off_tick": 1536,
+    "pitch": 82,
+    "channel": 2,
+    "x": 22.641,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:36:23"
+    ],
+    "on_tick": 1344,
+    "off_tick": 1536,
+    "pitch": 82,
+    "channel": 1,
+    "x": 22.641,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:111:3"
+    ],
+    "on_tick": 1536,
+    "off_tick": 2688,
+    "pitch": 71,
+    "channel": 4,
+    "x": 26.17,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:87:3"
+    ],
+    "on_tick": 1536,
+    "off_tick": 2688,
+    "pitch": 71,
+    "channel": 3,
+    "x": 26.17,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:63:3"
+    ],
+    "on_tick": 1536,
+    "off_tick": 2688,
+    "pitch": 83,
+    "channel": 2,
+    "x": 26.17,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:38:3"
+    ],
+    "on_tick": 1536,
+    "off_tick": 2688,
+    "pitch": 83,
+    "channel": 1,
+    "x": 26.17,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:111:8"
+    ],
+    "on_tick": 2688,
+    "off_tick": 2880,
+    "pitch": 71,
+    "channel": 4,
+    "x": 33.176,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:87:8"
+    ],
+    "on_tick": 2688,
+    "off_tick": 2880,
+    "pitch": 71,
+    "channel": 3,
+    "x": 33.176,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:63:9"
+    ],
+    "on_tick": 2688,
+    "off_tick": 2880,
+    "pitch": 83,
+    "channel": 2,
+    "x": 33.176,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:38:9"
+    ],
+    "on_tick": 2688,
+    "off_tick": 2880,
+    "pitch": 83,
+    "channel": 1,
+    "x": 33.176,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:111:15"
+    ],
+    "on_tick": 2880,
+    "off_tick": 3072,
+    "pitch": 68,
+    "channel": 4,
+    "x": 35.511,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:87:15"
+    ],
+    "on_tick": 2880,
+    "off_tick": 3072,
+    "pitch": 68,
+    "channel": 3,
+    "x": 35.511,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:63:17"
+    ],
+    "on_tick": 2880,
+    "off_tick": 3072,
+    "pitch": 80,
+    "channel": 2,
+    "x": 35.511,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:38:17"
+    ],
+    "on_tick": 2880,
+    "off_tick": 3072,
+    "pitch": 80,
+    "channel": 1,
+    "x": 35.511,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:112:3"
+    ],
+    "on_tick": 3072,
+    "off_tick": 3264,
+    "pitch": 75,
+    "channel": 4,
+    "x": 39.042,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:88:3"
+    ],
+    "on_tick": 3072,
+    "off_tick": 3264,
+    "pitch": 75,
+    "channel": 3,
+    "x": 39.042,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:64:3"
+    ],
+    "on_tick": 3072,
+    "off_tick": 3264,
+    "pitch": 87,
+    "channel": 2,
+    "x": 39.042,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:39:3"
+    ],
+    "on_tick": 3072,
+    "off_tick": 3264,
+    "pitch": 87,
+    "channel": 1,
+    "x": 39.042,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:112:13"
+    ],
+    "on_tick": 3264,
+    "off_tick": 4032,
+    "pitch": 73,
+    "channel": 4,
+    "x": 41.377,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:88:13"
+    ],
+    "on_tick": 3264,
+    "off_tick": 4032,
+    "pitch": 73,
+    "channel": 3,
+    "x": 41.377,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:64:14"
+    ],
+    "on_tick": 3264,
+    "off_tick": 4032,
+    "pitch": 85,
+    "channel": 2,
+    "x": 41.377,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:39:14"
+    ],
+    "on_tick": 3264,
+    "off_tick": 4032,
+    "pitch": 85,
+    "channel": 1,
+    "x": 41.377,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:112:23"
+    ],
+    "on_tick": 4032,
+    "off_tick": 4224,
+    "pitch": 66,
+    "channel": 4,
+    "x": 48.152,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:88:23"
+    ],
+    "on_tick": 4032,
+    "off_tick": 4224,
+    "pitch": 70,
+    "channel": 3,
+    "x": 48.152,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:39:25"
+    ],
+    "on_tick": 4032,
+    "off_tick": 4224,
+    "pitch": 82,
+    "channel": 1,
+    "x": 48.152,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:64:25"
+    ],
+    "on_tick": 4032,
+    "off_tick": 4224,
+    "pitch": 85,
+    "channel": 2,
+    "x": 48.152,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:112:29"
+    ],
+    "on_tick": 4224,
+    "off_tick": 4416,
+    "pitch": 61,
+    "channel": 4,
+    "x": 50.702,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:88:29"
+    ],
+    "on_tick": 4224,
+    "off_tick": 4416,
+    "pitch": 70,
+    "channel": 3,
+    "x": 50.702,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:39:32"
+    ],
+    "on_tick": 4224,
+    "off_tick": 4416,
+    "pitch": 82,
+    "channel": 1,
+    "x": 50.702,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:64:33"
+    ],
+    "on_tick": 4224,
+    "off_tick": 4416,
+    "pitch": 85,
+    "channel": 2,
+    "x": 50.702,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:112:35"
+    ],
+    "on_tick": 4416,
+    "off_tick": 4608,
+    "pitch": 63,
+    "channel": 4,
+    "x": 53.004,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:88:35"
+    ],
+    "on_tick": 4416,
+    "off_tick": 4608,
+    "pitch": 66,
+    "channel": 3,
+    "x": 53.004,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:39:39"
+    ],
+    "on_tick": 4416,
+    "off_tick": 4608,
+    "pitch": 83,
+    "channel": 1,
+    "x": 53.004,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:64:41"
+    ],
+    "on_tick": 4416,
+    "off_tick": 4608,
+    "pitch": 87,
+    "channel": 2,
+    "x": 53.004,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:113:3"
+    ],
+    "on_tick": 4608,
+    "off_tick": 5376,
+    "pitch": 64,
+    "channel": 4,
+    "x": 55.764,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:89:3"
+    ],
+    "on_tick": 4608,
+    "off_tick": 5376,
+    "pitch": 68,
+    "channel": 3,
+    "x": 55.764,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:40:3"
+    ],
+    "on_tick": 4608,
+    "off_tick": 5376,
+    "pitch": 85,
+    "channel": 1,
+    "x": 55.764,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:65:3"
+    ],
+    "on_tick": 4608,
+    "off_tick": 5376,
+    "pitch": 88,
+    "channel": 2,
+    "x": 55.764,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:114:5"
+    ],
+    "on_tick": 5376,
+    "off_tick": 5632,
+    "pitch": 66,
+    "channel": 4,
+    "x": 61.782,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:90:5"
+    ],
+    "on_tick": 5376,
+    "off_tick": 5632,
+    "pitch": 71,
+    "channel": 3,
+    "x": 61.782,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:66:5"
+    ],
+    "on_tick": 5376,
+    "off_tick": 5632,
+    "pitch": 87,
+    "channel": 2,
+    "x": 61.782,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:41:5"
+    ],
+    "on_tick": 5376,
+    "off_tick": 5632,
+    "pitch": 87,
+    "channel": 1,
+    "x": 61.782,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:114:11"
+    ],
+    "on_tick": 5632,
+    "off_tick": 5888,
+    "pitch": 66,
+    "channel": 4,
+    "x": 64.917,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:90:9"
+    ],
+    "on_tick": 5632,
+    "off_tick": 5888,
+    "pitch": 70,
+    "channel": 3,
+    "x": 64.917,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:66:13"
+    ],
+    "on_tick": 5632,
+    "off_tick": 5888,
+    "pitch": 85,
+    "channel": 2,
+    "x": 64.917,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:41:13"
+    ],
+    "on_tick": 5632,
+    "off_tick": 5888,
+    "pitch": 85,
+    "channel": 1,
+    "x": 64.917,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:114:17"
+    ],
+    "on_tick": 5888,
+    "off_tick": 6144,
+    "pitch": 66,
+    "channel": 4,
+    "x": 67.75,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:90:15"
+    ],
+    "on_tick": 5888,
+    "off_tick": 6144,
+    "pitch": 68,
+    "channel": 3,
+    "x": 67.75,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:41:21"
+    ],
+    "on_tick": 5888,
+    "off_tick": 6144,
+    "pitch": 83,
+    "channel": 1,
+    "x": 67.75,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:66:21"
+    ],
+    "on_tick": 5888,
+    "off_tick": 6144,
+    "pitch": 88,
+    "channel": 2,
+    "x": 67.75,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:117:3"
+    ],
+    "on_tick": 6144,
+    "off_tick": 7680,
+    "pitch": 59,
+    "channel": 4,
+    "x": 71.778,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:93:3"
+    ],
+    "on_tick": 6144,
+    "off_tick": 7680,
+    "pitch": 66,
+    "channel": 3,
+    "x": 71.778,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:44:3"
+    ],
+    "on_tick": 6144,
+    "off_tick": 7680,
+    "pitch": 83,
+    "channel": 1,
+    "x": 71.778,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:69:3"
+    ],
+    "on_tick": 6144,
+    "off_tick": 7680,
+    "pitch": 87,
+    "channel": 2,
+    "x": 71.778,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:118:6"
+    ],
+    "on_tick": 8064,
+    "off_tick": 8448,
+    "pitch": 59,
+    "channel": 4,
+    "x": 83.818,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:94:6"
+    ],
+    "on_tick": 8064,
+    "off_tick": 8448,
+    "pitch": 67,
+    "channel": 3,
+    "x": 83.818,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:45:6"
+    ],
+    "on_tick": 8064,
+    "off_tick": 8448,
+    "pitch": 83,
+    "channel": 1,
+    "x": 83.818,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:70:6"
+    ],
+    "on_tick": 8064,
+    "off_tick": 8448,
+    "pitch": 88,
+    "channel": 2,
+    "x": 83.818,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:118:9"
+    ],
+    "on_tick": 8448,
+    "off_tick": 8832,
+    "pitch": 59,
+    "channel": 4,
+    "x": 86.398,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:94:14"
+    ],
+    "on_tick": 8448,
+    "off_tick": 8832,
+    "pitch": 67,
+    "channel": 3,
+    "x": 86.398,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:45:11"
+    ],
+    "on_tick": 8448,
+    "off_tick": 8832,
+    "pitch": 85,
+    "channel": 1,
+    "x": 86.398,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:70:12"
+    ],
+    "on_tick": 8448,
+    "off_tick": 8832,
+    "pitch": 88,
+    "channel": 2,
+    "x": 86.398,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:118:12"
+    ],
+    "on_tick": 8832,
+    "off_tick": 9216,
+    "pitch": 59,
+    "channel": 4,
+    "x": 88.978,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:94:22"
+    ],
+    "on_tick": 8832,
+    "off_tick": 9216,
+    "pitch": 69,
+    "channel": 3,
+    "x": 88.978,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:70:18"
+    ],
+    "on_tick": 8832,
+    "off_tick": 9216,
+    "pitch": 88,
+    "channel": 2,
+    "x": 88.978,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:45:19"
+    ],
+    "on_tick": 8832,
+    "off_tick": 9216,
+    "pitch": 88,
+    "channel": 1,
+    "x": 88.978,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:119:4"
+    ],
+    "on_tick": 9216,
+    "off_tick": 10752,
+    "pitch": 59,
+    "channel": 4,
+    "x": 103.057,
+    "y": 36.194
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:119:6"
+    ],
+    "on_tick": 9216,
+    "off_tick": 10752,
+    "pitch": 71,
+    "channel": 4,
+    "x": 103.057,
+    "y": 33.506
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:123:3"
+    ],
+    "on_tick": 9216,
+    "off_tick": 10752,
+    "pitch": 66,
+    "channel": 3,
+    "x": 102.832,
+    "y": 31.365
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:95:4"
+    ],
+    "on_tick": 9216,
+    "off_tick": 10752,
+    "pitch": 71,
+    "channel": 3,
+    "x": 103.057,
+    "y": 28.93
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:95:9"
+    ],
+    "on_tick": 9216,
+    "off_tick": 10752,
+    "pitch": 85,
+    "channel": 2,
+    "x": 103.057,
+    "y": 26.222
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:99:3"
+    ],
+    "on_tick": 9216,
+    "off_tick": 10752,
+    "pitch": 87,
+    "channel": 2,
+    "x": 102.832,
+    "y": 24.809
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:71:4"
+    ],
+    "on_tick": 9216,
+    "off_tick": 10752,
+    "pitch": 87,
+    "channel": 1,
+    "x": 103.057,
+    "y": 17.949
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:71:11"
+    ],
+    "on_tick": 9216,
+    "off_tick": 10752,
+    "pitch": 90,
+    "channel": 1,
+    "x": 103.057,
+    "y": 15.242
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:75:3"
+    ],
+    "on_tick": 10752,
+    "off_tick": 11136,
+    "pitch": 59,
+    "channel": 4,
+    "x": 102.832,
+    "y": 14.945
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:46:4"
+    ],
+    "on_tick": 10752,
+    "off_tick": 11136,
+    "pitch": 66,
+    "channel": 3,
+    "x": 103.057,
+    "y": 10.685
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:50:3"
+    ],
+    "on_tick": 10752,
+    "off_tick": 11136,
+    "pitch": 85,
+    "channel": 2,
+    "x": 102.832,
+    "y": 8.389
+  },
+  {
+    "hrefs": [
+      "/mnt/e/projects/partitur-data/TMK_08/TMK_08_ly_main.ly:46:11"
+    ],
+    "on_tick": 10752,
+    "off_tick": 11136,
+    "pitch": 87,
+    "channel": 1,
+    "x": 103.057,
+    "y": 7.958
+  }
+]

@@ -1,0 +1,105 @@
+meta:
+  totalMeasures: 5
+  minTick: 0
+  maxTick: 7296
+  minMoment: 0
+  maxMoment: 5
+  musicStartSeconds: 0.0
+  channels:
+    2:
+      minPitch: 57
+      maxPitch: 67
+      count: 18
+    1:
+      minPitch: 57
+      maxPitch: 74
+      count: 18
+    4:
+      minPitch: 47
+      maxPitch: 57
+      count: 18
+    3:
+      minPitch: 54
+      maxPitch: 62
+      count: 20
+
+flow:
+- [0, ~, 1, bar]
+- [1344, 2, 1536, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:58:10']]
+- [1344, 1, 1536, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:43:71']]
+- [1536, ~, 2, bar]
+- [1536, 2, 2112, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:60:3']]
+- [1536, 1, 2112, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:45:3']]
+- [1728, 4, 1920, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:91:6']]
+- [1728, 3, 1920, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:76:6']]
+- [1920, 4, 2112, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:91:9']]
+- [1920, 3, 2112, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:76:11']]
+- [2112, 4, 2304, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:91:12']]
+- [2112, 3, 2304, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:76:16']]
+- [2112, 2, 2304, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:60:8']]
+- [2112, 1, 2304, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:45:8']]
+- [2304, 4, 2688, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:91:15']]
+- [2304, 3, 2688, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:76:19']]
+- [2304, 2, 2880, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:60:14']]
+- [2304, 1, 2880, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:45:14']]
+- [2688, 4, 3072, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:92:3']]
+- [2688, 3, 3072, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:76:22']]
+- [2880, 2, 3072, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:60:21']]
+- [2880, 1, 3072, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:45:19']]
+- [3072, ~, 3, bar]
+- [3072, 4, 3264, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:93:3']]
+- [3072, 3, 3264, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:77:3']]
+- [3072, 2, 3264, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:61:3']]
+- [3072, 1, 3264, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:46:3']]
+- [3264, 4, 3456, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:93:6']]
+- [3264, 3, 3456, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:77:9']]
+- [3264, 2, 3456, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:61:7']]
+- [3264, 1, 3456, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:46:10']]
+- [3456, 4, 3648, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:93:11']]
+- [3456, 3, 3648, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:77:15']]
+- [3456, 2, 3648, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:61:13']]
+- [3456, 1, 3648, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:46:14']]
+- [3648, 4, 3840, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:93:18']]
+- [3648, 3, 3840, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:77:23']]
+- [3648, 2, 3840, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:61:19']]
+- [3648, 1, 3840, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:46:18']]
+- [3840, 4, 4224, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:93:23']]
+- [3840, 3, 4224, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:77:29']]
+- [3840, 2, 4224, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:62:3']]
+- [3840, 1, 4224, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:46:24']]
+- [4416, 4, 4608, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:93:31']]
+- [4416, 3, 4608, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:77:38']]
+- [4416, 2, 4608, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:62:12']]
+- [4416, 1, 4608, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:46:31']]
+- [4608, ~, 4, bar]
+- [4608, 4, 5184, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:94:3']]
+- [4608, 3, 5184, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:78:3']]
+- [4608, 2, 5184, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:63:3']]
+- [4608, 1, 5184, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:47:3']]
+- [5184, 4, 5376, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:94:7']]
+- [5184, 3, 5376, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:78:8']]
+- [5184, 2, 5376, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:63:8']]
+- [5184, 1, 5376, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:47:8']]
+- [5376, 4, 5568, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:94:10']]
+- [5376, 3, 5568, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:78:11']]
+- [5376, 2, 5568, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:63:12']]
+- [5376, 1, 5568, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:47:12']]
+- [5568, 4, 6144, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:94:13']]
+- [5568, 3, 5952, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:78:14']]
+- [5568, 2, 6048, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:63:18']]
+- [5568, 1, 5952, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:47:16']]
+- [5952, 3, 6144, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:78:17']]
+- [5952, 1, 6048, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:47:20']]
+- [6048, 3, 6144, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:78:24']]
+- [6048, 1, 6144, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:47:25']]
+- [6144, ~, 5, bar]
+- [6144, 4, 6528, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:95:3']]
+- [6144, 3, 6528, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:79:3']]
+- [6144, 2, 6528, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:64:3']]
+- [6144, 1, 7296, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:48:3']]
+- [6528, 4, 6912, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:95:8']]
+- [6528, 3, 6912, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:79:10']]
+- [6528, 2, 6912, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:64:9']]
+- [6912, 4, 7296, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:95:13']]
+- [6912, 3, 7296, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:79:13']]
+- [6912, 2, 7296, ['/mnt/e/projects/partitur-data/__unpublished/BK_03/BK_03_ly_main.ly:64:13']]

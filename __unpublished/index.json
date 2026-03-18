@@ -1,0 +1,923 @@
+[
+  {
+    "slug": "BK_01",
+    "workInfo": {
+      "title": "Bapa Kami - p01",
+      "fullTitle": "Bapa Kami - p01",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_01",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_01.m4a",
+      "svgPath": "BK_01.svg",
+      "syncPath": "BK_01.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 54,
+      "totalMeasures": 16,
+      "lastMeasureDuration": "2/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_01/exports/BK_01.m4a",
+      "pdf": "/partitur-data/BK_01/exports/BK_01.pdf",
+      "svg": "/partitur-data/BK_01/exports/BK_01.svg",
+      "sync": "/partitur-data/BK_01/exports/BK_01.yaml"
+    }
+  },
+  {
+    "slug": "BK_02",
+    "workInfo": {
+      "title": "Bapa Kami - p02",
+      "fullTitle": "Bapa Kami - p02",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_02",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_02.m4a",
+      "svgPath": "BK_02.svg",
+      "syncPath": "BK_02.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 49.714285714285715,
+      "totalMeasures": 14,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_02/exports/BK_02.m4a",
+      "pdf": "/partitur-data/BK_02/exports/BK_02.pdf",
+      "svg": "/partitur-data/BK_02/exports/BK_02.svg",
+      "sync": "/partitur-data/BK_02/exports/BK_02.yaml"
+    }
+  },
+  {
+    "slug": "BK_03",
+    "workInfo": {
+      "title": "Bapa Kami - p03",
+      "fullTitle": "Bapa Kami - p03",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_03",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_03.m4a",
+      "svgPath": "BK_03.svg",
+      "syncPath": "BK_03.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 16.286,
+      "totalMeasures": 5,
+      "lastMeasureDuration": "3/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_03/exports/BK_03.m4a",
+      "pdf": "/partitur-data/BK_03/exports/BK_03.pdf",
+      "svg": "/partitur-data/BK_03/exports/BK_03.svg",
+      "sync": "/partitur-data/BK_03/exports/BK_03.yaml"
+    }
+  },
+  {
+    "slug": "BK_04",
+    "workInfo": {
+      "title": "Bapa Kami - p04",
+      "fullTitle": "Bapa Kami - p04",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_04",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_04.m4a",
+      "svgPath": "BK_04.svg",
+      "syncPath": "BK_04.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 12.857,
+      "totalMeasures": 4,
+      "lastMeasureDuration": "3/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_04/exports/BK_04.m4a",
+      "pdf": "/partitur-data/BK_04/exports/BK_04.pdf",
+      "svg": "/partitur-data/BK_04/exports/BK_04.svg",
+      "sync": "/partitur-data/BK_04/exports/BK_04.yaml"
+    }
+  },
+  {
+    "slug": "BK_05",
+    "workInfo": {
+      "title": "Bapa Kami - p05",
+      "fullTitle": "Bapa Kami - p05",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_05",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_05.m4a",
+      "svgPath": "BK_05.svg",
+      "syncPath": "BK_05.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 16.286,
+      "totalMeasures": 5,
+      "lastMeasureDuration": "3/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_05/exports/BK_05.m4a",
+      "pdf": "/partitur-data/BK_05/exports/BK_05.pdf",
+      "svg": "/partitur-data/BK_05/exports/BK_05.svg",
+      "sync": "/partitur-data/BK_05/exports/BK_05.yaml"
+    }
+  },
+  {
+    "slug": "BK_06",
+    "workInfo": {
+      "title": "Bapa Kami - p06",
+      "fullTitle": "Bapa Kami - p06",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_06",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_06.m4a",
+      "svgPath": "BK_06.svg",
+      "syncPath": "BK_06.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 13.714,
+      "totalMeasures": 4,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_06/exports/BK_06.m4a",
+      "pdf": "/partitur-data/BK_06/exports/BK_06.pdf",
+      "svg": "/partitur-data/BK_06/exports/BK_06.svg",
+      "sync": "/partitur-data/BK_06/exports/BK_06.yaml"
+    }
+  },
+  {
+    "slug": "BK_07",
+    "workInfo": {
+      "title": "Bapa Kami - p07",
+      "fullTitle": "Bapa Kami - p07",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_07",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_07.m4a",
+      "svgPath": "BK_07.svg",
+      "syncPath": "BK_07.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 12.857,
+      "totalMeasures": 4,
+      "lastMeasureDuration": "3/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_07/exports/BK_07.m4a",
+      "pdf": "/partitur-data/BK_07/exports/BK_07.pdf",
+      "svg": "/partitur-data/BK_07/exports/BK_07.svg",
+      "sync": "/partitur-data/BK_07/exports/BK_07.yaml"
+    }
+  },
+  {
+    "slug": "BK_08",
+    "workInfo": {
+      "title": "Bapa Kami - p08",
+      "fullTitle": "Bapa Kami - p08",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_08",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_08.m4a",
+      "svgPath": "BK_08.svg",
+      "syncPath": "BK_08.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 12.857,
+      "totalMeasures": 4,
+      "lastMeasureDuration": "3/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_08/exports/BK_08.m4a",
+      "pdf": "/partitur-data/BK_08/exports/BK_08.pdf",
+      "svg": "/partitur-data/BK_08/exports/BK_08.svg",
+      "sync": "/partitur-data/BK_08/exports/BK_08.yaml"
+    }
+  },
+  {
+    "slug": "BK_09",
+    "workInfo": {
+      "title": "Bapa Kami - p09",
+      "fullTitle": "Bapa Kami - p09",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_09",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_09.m4a",
+      "svgPath": "BK_09.svg",
+      "syncPath": "BK_09.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 13.714,
+      "totalMeasures": 4,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_09/exports/BK_09.m4a",
+      "pdf": "/partitur-data/BK_09/exports/BK_09.pdf",
+      "svg": "/partitur-data/BK_09/exports/BK_09.svg",
+      "sync": "/partitur-data/BK_09/exports/BK_09.yaml"
+    }
+  },
+  {
+    "slug": "BK_10",
+    "workInfo": {
+      "title": "Bapa Kami - p10",
+      "fullTitle": "Bapa Kami - p10",
+      "composer": "Grego Julius",
+      "arranger": "Chrisantyo Lucas",
+      "lyricist": "TPE",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Salinan",
+      "workId": "BK_10",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "BK_10.m4a",
+      "svgPath": "BK_10.svg",
+      "syncPath": "BK_10.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 14.571428571428571,
+      "totalMeasures": 5,
+      "lastMeasureDuration": "1/4",
+      "visualLeadTimeSeconds": 0.05
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/BK_10/exports/BK_10.m4a",
+      "pdf": "/partitur-data/BK_10/exports/BK_10.pdf",
+      "svg": "/partitur-data/BK_10/exports/BK_10.svg",
+      "sync": "/partitur-data/BK_10/exports/BK_10.yaml"
+    }
+  },
+  {
+    "slug": "Tuhan_Maha_Kasih",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih",
+      "fullTitle": "Tuhan Maha Kasih",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "Tuhan_Maha_Kasih",
+      "movementName": "SATB",
+      "youtubeURL": "",
+      "externalURL": ""
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "Tuhan_Maha_Kasih.m4a",
+      "svgPath": "Tuhan_Maha_Kasih.svg",
+      "syncPath": "Tuhan_Maha_Kasih.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 285.639,
+      "totalMeasures": 78,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": null,
+    "urls": {
+      "audio": "/partitur-data/Tuhan_Maha_Kasih/exports/Tuhan_Maha_Kasih.m4a",
+      "pdf": "/partitur-data/Tuhan_Maha_Kasih/exports/Tuhan_Maha_Kasih.pdf",
+      "svg": "/partitur-data/Tuhan_Maha_Kasih/exports/Tuhan_Maha_Kasih.svg",
+      "sync": "/partitur-data/Tuhan_Maha_Kasih/exports/Tuhan_Maha_Kasih.yaml"
+    }
+  },
+  {
+    "slug": "TMK_01",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih - p01",
+      "fullTitle": "Tuhan Maha Kasih - p01",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "TMK_01",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "TMK_01.m4a",
+      "svgPath": "TMK_01.svg",
+      "syncPath": "TMK_01.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 58.182,
+      "totalMeasures": 16,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/TMK_01/exports/TMK_01.m4a",
+      "pdf": "/partitur-data/TMK_01/exports/TMK_01.pdf",
+      "svg": "/partitur-data/TMK_01/exports/TMK_01.svg",
+      "sync": "/partitur-data/TMK_01/exports/TMK_01.yaml"
+    }
+  },
+  {
+    "slug": "TMK_02",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih - p02",
+      "fullTitle": "Tuhan Maha Kasih - p02",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "TMK_02",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "TMK_02.m4a",
+      "svgPath": "TMK_02.svg",
+      "syncPath": "TMK_02.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 18.182,
+      "totalMeasures": 5,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/TMK_02/exports/TMK_02.m4a",
+      "pdf": "/partitur-data/TMK_02/exports/TMK_02.pdf",
+      "svg": "/partitur-data/TMK_02/exports/TMK_02.svg",
+      "sync": "/partitur-data/TMK_02/exports/TMK_02.yaml"
+    }
+  },
+  {
+    "slug": "TMK_03",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih - p03",
+      "fullTitle": "Tuhan Maha Kasih - p03",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "TMK_03",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "TMK_03.m4a",
+      "svgPath": "TMK_03.svg",
+      "syncPath": "TMK_03.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 18.182,
+      "totalMeasures": 5,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/TMK_03/exports/TMK_03.m4a",
+      "pdf": "/partitur-data/TMK_03/exports/TMK_03.pdf",
+      "svg": "/partitur-data/TMK_03/exports/TMK_03.svg",
+      "sync": "/partitur-data/TMK_03/exports/TMK_03.yaml"
+    }
+  },
+  {
+    "slug": "TMK_04",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih - p04",
+      "fullTitle": "Tuhan Maha Kasih - p04",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "TMK_04",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "TMK_04.m4a",
+      "svgPath": "TMK_04.svg",
+      "syncPath": "TMK_04.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 58.182,
+      "totalMeasures": 16,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/TMK_04/exports/TMK_04.m4a",
+      "pdf": "/partitur-data/TMK_04/exports/TMK_04.pdf",
+      "svg": "/partitur-data/TMK_04/exports/TMK_04.svg",
+      "sync": "/partitur-data/TMK_04/exports/TMK_04.yaml"
+    }
+  },
+  {
+    "slug": "TMK_05",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih - p05",
+      "fullTitle": "Tuhan Maha Kasih - p05",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "TMK_05",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "TMK_05.m4a",
+      "svgPath": "TMK_05.svg",
+      "syncPath": "TMK_05.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 18.182,
+      "totalMeasures": 5,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/TMK_05/exports/TMK_05.m4a",
+      "pdf": "/partitur-data/TMK_05/exports/TMK_05.pdf",
+      "svg": "/partitur-data/TMK_05/exports/TMK_05.svg",
+      "sync": "/partitur-data/TMK_05/exports/TMK_05.yaml"
+    }
+  },
+  {
+    "slug": "TMK_06",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih - p06",
+      "fullTitle": "Tuhan Maha Kasih - p06",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "TMK_06",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "TMK_06.m4a",
+      "svgPath": "TMK_06.svg",
+      "syncPath": "TMK_06.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 18.182,
+      "totalMeasures": 5,
+      "lastMeasureDuration": "4/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/TMK_06/exports/TMK_06.m4a",
+      "pdf": "/partitur-data/TMK_06/exports/TMK_06.pdf",
+      "svg": "/partitur-data/TMK_06/exports/TMK_06.svg",
+      "sync": "/partitur-data/TMK_06/exports/TMK_06.yaml"
+    }
+  },
+  {
+    "slug": "TMK_07",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih - p07",
+      "fullTitle": "Tuhan Maha Kasih - p07",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "TMK_07",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "TMK_07.m4a",
+      "svgPath": "TMK_07.svg",
+      "syncPath": "TMK_07.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 30.909,
+      "totalMeasures": 9,
+      "lastMeasureDuration": "2/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/TMK_07/exports/TMK_07.m4a",
+      "pdf": "/partitur-data/TMK_07/exports/TMK_07.pdf",
+      "svg": "/partitur-data/TMK_07/exports/TMK_07.svg",
+      "sync": "/partitur-data/TMK_07/exports/TMK_07.yaml"
+    }
+  },
+  {
+    "slug": "TMK_08",
+    "workInfo": {
+      "title": "Tuhan Maha Kasih - p08",
+      "fullTitle": "Tuhan Maha Kasih - p08",
+      "composer": "Grego Julius & Chrisantyo Lucas",
+      "arranger": "Henri Yulianto & Chrisantyo Lucas",
+      "lyricist": "Grego Julius",
+      "instrument": "SATB",
+      "notationType": "not angka",
+      "workType": "Aransemen",
+      "workId": "TMK_08",
+      "movementName": "SATB"
+    },
+    "cdn": {
+      "provider": "github",
+      "identifier": "partitur-data"
+    },
+    "files": {
+      "audioPath": "TMK_08.m4a",
+      "svgPath": "TMK_08.svg",
+      "syncPath": "TMK_08.yaml"
+    },
+    "musicalStructure": {
+      "totalDurationSeconds": 30,
+      "totalMeasures": 8,
+      "lastMeasureDuration": "1/4",
+      "visualLeadTimeSeconds": 0.2
+    },
+    "measureHighlighters": {
+      "alternating": {
+        "name": "Alternating Colors",
+        "type": "alternating",
+        "colors": [
+          "lightskyblue",
+          "lightsalmon",
+          "lightgreen",
+          "lightpink"
+        ],
+        "opacity": 0.25
+      }
+    },
+    "urls": {
+      "audio": "/partitur-data/TMK_08/exports/TMK_08.m4a",
+      "pdf": "/partitur-data/TMK_08/exports/TMK_08.pdf",
+      "svg": "/partitur-data/TMK_08/exports/TMK_08.svg",
+      "sync": "/partitur-data/TMK_08/exports/TMK_08.yaml"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "slug": "BK_03",
+  "workInfo": {
+    "title": "Bapa Kami - p03",
+    "fullTitle": "Bapa Kami - p03",
+    "composer": "Grego Julius",
+    "arranger": "Chrisantyo Lucas",
+    "lyricist": "TPE",
+    "instrument": "SATB",
+    "notationType": "not angka",
+    "workType": "Salinan",
+    "workId": "BK_03",
+    "movementName": "SATB"
+  },
+  "cdn": {
+    "provider": "github",
+    "identifier": "partitur-data"
+  },
+  "files": {
+    "audioPath": "BK_03.m4a",
+    "svgPath": "BK_03.svg",
+    "syncPath": "BK_03.yaml"
+  },
+  "musicalStructure": {
+    "totalDurationSeconds": 16.286,
+    "totalMeasures": 5,
+    "lastMeasureDuration": "3/4",
+    "visualLeadTimeSeconds": 0.05
+  },
+  "measureHighlighters": {
+    "alternating": {
+      "name": "Alternating Colors",
+      "type": "alternating",
+      "colors": [
+        "lightskyblue",
+        "lightsalmon",
+        "lightgreen",
+        "lightpink"
+      ],
+      "opacity": 0.25
+    }
+  },
+  "urls": {
+    "audio": "/partitur-data/BK_03/exports/BK_03.m4a",
+    "pdf": "/partitur-data/BK_03/exports/BK_03.pdf",
+    "svg": "/partitur-data/BK_03/exports/BK_03.svg",
+    "sync": "/partitur-data/BK_03/exports/BK_03.yaml"
+  }
+}

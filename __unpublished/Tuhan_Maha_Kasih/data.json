@@ -1,0 +1,39 @@
+{
+  "slug": "Tuhan_Maha_Kasih",
+  "workInfo": {
+    "title": "Tuhan Maha Kasih",
+    "fullTitle": "Tuhan Maha Kasih",
+    "composer": "Grego Julius & Chrisantyo Lucas",
+    "arranger": "Henri Yulianto & Chrisantyo Lucas",
+    "lyricist": "Grego Julius",
+    "instrument": "SATB",
+    "notationType": "not angka",
+    "workType": "Aransemen",
+    "workId": "Tuhan_Maha_Kasih",
+    "movementName": "SATB",
+    "youtubeURL": "",
+    "externalURL": ""
+  },
+  "cdn": {
+    "provider": "github",
+    "identifier": "partitur-data"
+  },
+  "files": {
+    "audioPath": "Tuhan_Maha_Kasih.m4a",
+    "svgPath": "Tuhan_Maha_Kasih.svg",
+    "syncPath": "Tuhan_Maha_Kasih.yaml"
+  },
+  "musicalStructure": {
+    "totalDurationSeconds": 285.639,
+    "totalMeasures": 78,
+    "lastMeasureDuration": "4/4",
+    "visualLeadTimeSeconds": 0.2
+  },
+  "measureHighlighters": null,
+  "urls": {
+    "audio": "/partitur-data/Tuhan_Maha_Kasih/exports/Tuhan_Maha_Kasih.m4a",
+    "pdf": "/partitur-data/Tuhan_Maha_Kasih/exports/Tuhan_Maha_Kasih.pdf",
+    "svg": "/partitur-data/Tuhan_Maha_Kasih/exports/Tuhan_Maha_Kasih.svg",
+    "sync": "/partitur-data/Tuhan_Maha_Kasih/exports/Tuhan_Maha_Kasih.yaml"
+  }
+}

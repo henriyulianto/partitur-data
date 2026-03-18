@@ -1,0 +1,101 @@
+{
+  "svg_one_line": {
+    "Tuhan_Maha_Kasih_ly_one_line.ly": "c1cc3b557ea135b80c144cbd88872f3686c75918d52f99c7588ba65d4a261547",
+    "../__includes/pseudo-indents.ily": "7f7f9375c6edd5dee76fed8e20ec7a7a9dcbbb8620b54f3b8be0fe99e6d62437",
+    "../__includes/gj-music-template.ily": "c4dd05830f755796705bf92afa054d9c3731f806d629a3089c952e0e6ab0b104",
+    "../__includes/tie-attributes.ily": "71b81804c3e32be2bec425f62b8afa65f5ab0466a37f755b28951af5ee4b6d62",
+    "Tuhan_Maha_Kasih.ly": "178df7b41e598f575577f7a6e969f10f4cca5e7d3fc88e7c2328913959345d05",
+    "../../solmisasi-ly/ly/choir-tkit/lyrics-tkit.ily": "f46d8fdb1f6a3faa429180a2688671b70051f78e6a9428d8a06aa7d149597580",
+    "../../solmisasi-ly/ly/choir-tkit/vocal-tkit.ily": "f97bb6fa2b1e0a8e04cd1a072206f46df0e86339e0e996f3e195e93d403e12f1",
+    "../__includes/highlight-bars.ily": "8c52d45da101bfa72595b95a809561683c5336c7130e86678601e87b1852fb78",
+    "../__includes/jazzchords.ily": "9ae9477bb6e5736c048ed8ffe3cb2c32ddd95cd758e6656027eb9a233d5e8732",
+    "../../solmisasi-ly/solmisasi-ly.ily": "baa0f1c616b6d13f629cb22641aab5ff917d1c53db2d72fcbe6132e65959fa7b",
+    "../__includes/fermata.ily": "85f75581324581e98ead58b6d4e9fd255260000f49e0fe20a349eab872ca73dd",
+    "Tuhan_Maha_Kasih_ly_main.ly": "a4582916df0546fc9d25278f75ed7a0f8127554d8a0ecaded9cf0096b13a11e2",
+    "../../solmisasi-ly/ly/choir-tkit/staff-tkit.ily": "afa4fdb926d697383d2e3743ab4a1bde8e2a29b33e3be0c9da64f8660a25cd88",
+    "../__includes/gj-music-framework-svg.mod.ily": "2f339ca07f3818b81e6f991ce179a896e8248c6ba527cdea196afb0400de4427",
+    "../../solmisasi-ly/ly/choir-tkit/piano-tkit.ily": "4662835b40b2b3c67fdba3bfa6f3fb2a6db7f76932b0108dc85666bf7980f1a4",
+    "../../solmisasi-ly/ly/internal/os-path.ily": "7a4356865eb508b60eabe0c477d5f5c8f22d46fe50f26fcf389860a229cd6acd",
+    "../__includes/svg-animation-init.ily": "595fbca3276fc8439c392c27720cd89f8a36486250a533b356a2c0d9a7fdc51e",
+    "../../solmisasi-ly/ly/choir-tkit/voice-tkit.ily": "f9dc9f983900332fd595ae8dc5a5a94c2ccd314f80430158f10b30d533b14550",
+    "../../solmisasi-ly/ly/choir.ily": "27d87c3717e1c960b14cf968381a2ee3811b563f9779efdc75998fab4408f9ac",
+    "../../solmisasi-ly/ly/internal/utilities.ily": "91b296589805b5b18c69b4af9566347a6e34a401356ce01e36cf28542c7867b0"
+  },
+  "events": {
+    "Tuhan_Maha_Kasih_ly_one_line.midi": "d260753032891817f44bee6c062a28579589cee1312d1bce4574334a3925e42a"
+  },
+  "filter_one_line": {
+    "Tuhan_Maha_Kasih_ly_one_line.svg": "3bdf5f754c8808b73b1bcd6dc5ae9eccf877b0f937b89a62150a40e3ae2feba3"
+  },
+  "ties": {
+    "Tuhan_Maha_Kasih_ly_one_line_filtered.svg": "43081b414633396511e45df55ebee22b0828e1aa80640beb1127635f870b42d4"
+  },
+  "noteheads": {
+    "Tuhan_Maha_Kasih_ly_one_line_filtered.svg": "43081b414633396511e45df55ebee22b0828e1aa80640beb1127635f870b42d4"
+  },
+  "squash": {
+    "Tuhan_Maha_Kasih_note_heads.csv": "ab249688cb6db3a6240a2ef9611870604263d7239692481a46c1f362ed22c914",
+    "Tuhan_Maha_Kasih_ties.csv": "1364eff62c44143084b22fde48678fce89582dc0f59e71c21caa6b4e4fc4a38d"
+  },
+  "align": {
+    "Tuhan_Maha_Kasih_note_heads_squashed.csv": "f79c16c3ec4b502b656d1465b3206e02e575603beb63cef14d3f282b9597e7f5",
+    "Tuhan_Maha_Kasih_note_events.csv": "bbee89306779fa744949eac5cfa9fffc23796a516ece189c391b3883b34e58be"
+  },
+  "svg": {
+    "Tuhan_Maha_Kasih.ly": "178df7b41e598f575577f7a6e969f10f4cca5e7d3fc88e7c2328913959345d05",
+    "../__includes/pseudo-indents.ily": "7f7f9375c6edd5dee76fed8e20ec7a7a9dcbbb8620b54f3b8be0fe99e6d62437",
+    "../__includes/gj-music-template.ily": "c4dd05830f755796705bf92afa054d9c3731f806d629a3089c952e0e6ab0b104",
+    "../__includes/tie-attributes.ily": "71b81804c3e32be2bec425f62b8afa65f5ab0466a37f755b28951af5ee4b6d62",
+    "../../solmisasi-ly/ly/choir-tkit/lyrics-tkit.ily": "f46d8fdb1f6a3faa429180a2688671b70051f78e6a9428d8a06aa7d149597580",
+    "../../solmisasi-ly/ly/choir-tkit/vocal-tkit.ily": "f97bb6fa2b1e0a8e04cd1a072206f46df0e86339e0e996f3e195e93d403e12f1",
+    "../__includes/highlight-bars.ily": "8c52d45da101bfa72595b95a809561683c5336c7130e86678601e87b1852fb78",
+    "../__includes/jazzchords.ily": "9ae9477bb6e5736c048ed8ffe3cb2c32ddd95cd758e6656027eb9a233d5e8732",
+    "../../solmisasi-ly/solmisasi-ly.ily": "baa0f1c616b6d13f629cb22641aab5ff917d1c53db2d72fcbe6132e65959fa7b",
+    "../__includes/fermata.ily": "85f75581324581e98ead58b6d4e9fd255260000f49e0fe20a349eab872ca73dd",
+    "Tuhan_Maha_Kasih_ly_main.ly": "a4582916df0546fc9d25278f75ed7a0f8127554d8a0ecaded9cf0096b13a11e2",
+    "../../solmisasi-ly/ly/choir-tkit/staff-tkit.ily": "afa4fdb926d697383d2e3743ab4a1bde8e2a29b33e3be0c9da64f8660a25cd88",
+    "../__includes/gj-music-framework-svg.mod.ily": "2f339ca07f3818b81e6f991ce179a896e8248c6ba527cdea196afb0400de4427",
+    "../../solmisasi-ly/ly/choir-tkit/piano-tkit.ily": "4662835b40b2b3c67fdba3bfa6f3fb2a6db7f76932b0108dc85666bf7980f1a4",
+    "../../solmisasi-ly/ly/internal/os-path.ily": "7a4356865eb508b60eabe0c477d5f5c8f22d46fe50f26fcf389860a229cd6acd",
+    "../__includes/svg-animation-init.ily": "595fbca3276fc8439c392c27720cd89f8a36486250a533b356a2c0d9a7fdc51e",
+    "../../solmisasi-ly/ly/choir-tkit/voice-tkit.ily": "f9dc9f983900332fd595ae8dc5a5a94c2ccd314f80430158f10b30d533b14550",
+    "../../solmisasi-ly/ly/choir.ily": "27d87c3717e1c960b14cf968381a2ee3811b563f9779efdc75998fab4408f9ac",
+    "../../solmisasi-ly/ly/internal/utilities.ily": "91b296589805b5b18c69b4af9566347a6e34a401356ce01e36cf28542c7867b0"
+  },
+  "filter": {
+    "Tuhan_Maha_Kasih.svg": "4826db83ab0cb90252dbdced524f110814cf7eea59126848d2ce6709308ae028"
+  },
+  "swell": {
+    "Tuhan_Maha_Kasih_filtered.svg": "eda686627e14aade5c84b336ebb1fc860ddb1b031d8d7f76855ccfa61fa53e7b"
+  },
+  "optim": {
+    "Tuhan_Maha_Kasih_filtered_swellable.svg": "28e789410d0d6a09eb5a2354b2ad687efb77bef089a7399493d492e6d5f377aa"
+  },
+  "sync": {
+    "Tuhan_Maha_Kasih_optimized.svg": "bd146bc1b0f6f30f1f7508edecb86ec186e786c18eb2af8a02655b02350589fb",
+    "Tuhan_Maha_Kasih_json_notes.json": "2efa420e3b8e54e8658edb64d2af79add3c563030cf47e15f5e30c1870043392",
+    "Tuhan_Maha_Kasih_note_heads_fermata.csv": "92a2b8a7c573a5f7243bcd25c37e27e1fabcf4f4326a0f39f3919fbdf5402f11",
+    "exports/Tuhan_Maha_Kasih.config.yaml": "c5d19344df66455753e5ed8602543f36a59053f0d4f9f986caa763e4e2159f22"
+  },
+  "pdf": {
+    "Tuhan_Maha_Kasih.ly": "178df7b41e598f575577f7a6e969f10f4cca5e7d3fc88e7c2328913959345d05",
+    "../__includes/pseudo-indents.ily": "7f7f9375c6edd5dee76fed8e20ec7a7a9dcbbb8620b54f3b8be0fe99e6d62437",
+    "../__includes/gj-music-template.ily": "c4dd05830f755796705bf92afa054d9c3731f806d629a3089c952e0e6ab0b104",
+    "../__includes/tie-attributes.ily": "71b81804c3e32be2bec425f62b8afa65f5ab0466a37f755b28951af5ee4b6d62",
+    "../../solmisasi-ly/ly/choir-tkit/lyrics-tkit.ily": "f46d8fdb1f6a3faa429180a2688671b70051f78e6a9428d8a06aa7d149597580",
+    "../../solmisasi-ly/ly/choir-tkit/vocal-tkit.ily": "f97bb6fa2b1e0a8e04cd1a072206f46df0e86339e0e996f3e195e93d403e12f1",
+    "../__includes/highlight-bars.ily": "8c52d45da101bfa72595b95a809561683c5336c7130e86678601e87b1852fb78",
+    "../__includes/jazzchords.ily": "9ae9477bb6e5736c048ed8ffe3cb2c32ddd95cd758e6656027eb9a233d5e8732",
+    "../../solmisasi-ly/solmisasi-ly.ily": "baa0f1c616b6d13f629cb22641aab5ff917d1c53db2d72fcbe6132e65959fa7b",
+    "../__includes/fermata.ily": "85f75581324581e98ead58b6d4e9fd255260000f49e0fe20a349eab872ca73dd",
+    "Tuhan_Maha_Kasih_ly_main.ly": "a4582916df0546fc9d25278f75ed7a0f8127554d8a0ecaded9cf0096b13a11e2",
+    "../../solmisasi-ly/ly/choir-tkit/staff-tkit.ily": "afa4fdb926d697383d2e3743ab4a1bde8e2a29b33e3be0c9da64f8660a25cd88",
+    "../__includes/gj-music-framework-svg.mod.ily": "2f339ca07f3818b81e6f991ce179a896e8248c6ba527cdea196afb0400de4427",
+    "../../solmisasi-ly/ly/choir-tkit/piano-tkit.ily": "4662835b40b2b3c67fdba3bfa6f3fb2a6db7f76932b0108dc85666bf7980f1a4",
+    "../../solmisasi-ly/ly/internal/os-path.ily": "7a4356865eb508b60eabe0c477d5f5c8f22d46fe50f26fcf389860a229cd6acd",
+    "../__includes/svg-animation-init.ily": "595fbca3276fc8439c392c27720cd89f8a36486250a533b356a2c0d9a7fdc51e",
+    "../../solmisasi-ly/ly/choir-tkit/voice-tkit.ily": "f9dc9f983900332fd595ae8dc5a5a94c2ccd314f80430158f10b30d533b14550",
+    "../../solmisasi-ly/ly/choir.ily": "27d87c3717e1c960b14cf968381a2ee3811b563f9779efdc75998fab4408f9ac",
+    "../../solmisasi-ly/ly/internal/utilities.ily": "91b296589805b5b18c69b4af9566347a6e34a401356ce01e36cf28542c7867b0"
+  }
+}

@@ -1,0 +1,122 @@
+meta:
+  totalMeasures: 5
+  minTick: 0
+  maxTick: 7680
+  minMoment: 0
+  maxMoment: 5
+  musicStartSeconds: 0.0
+  channels:
+    4:
+      minPitch: 65
+      maxPitch: 71
+      count: 24
+    3:
+      minPitch: 68
+      maxPitch: 75
+      count: 22
+    2:
+      minPitch: 71
+      maxPitch: 83
+      count: 26
+    1:
+      minPitch: 78
+      maxPitch: 87
+      count: 19
+
+flow:
+- [0, ~, 1, bar]
+- [0, 4, 768, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:91:3']]
+- [0, 3, 384, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:70:3']]
+- [0, 2, 384, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:49:3']]
+- [0, 1, 384, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:28:3']]
+- [384, 4, 576, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:91:9']]
+- [384, 2, 576, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:49:12']]
+- [384, 1, 768, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:28:108']]
+- [576, 4, 768, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:91:15']]
+- [576, 2, 768, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:49:19']]
+- [768, 4, 1536, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:91:23']]
+- [768, 3, 960, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:70:7']]
+- [768, 2, 1152, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:49:25']]
+- [768, 1, 1344, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:28:115']]
+- [960, 3, 1152, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:70:15']]
+- [1152, 3, 1344, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:70:19']]
+- [1152, 2, 1536, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:49:34']]
+- [1344, 3, 1536, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:70:28']]
+- [1344, 1, 1536, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:28:126']]
+- [1536, ~, 2, bar]
+- [1536, 4, 2496, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:92:3']]
+- [1536, 3, 1920, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:71:3']]
+- [1536, 2, 1728, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:50:3']]
+- [1536, 1, 2496, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:29:3']]
+- [1728, 2, 1920, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:50:10']]
+- [1920, 4, 2112, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:92:7']]
+- [1920, 2, 2112, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:50:17']]
+- [2112, 4, 2304, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:92:13']]
+- [2112, 2, 2304, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:50:27']]
+- [2304, 4, 2880, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:92:19']]
+- [2304, 2, 2880, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:50:35']]
+- [2688, 3, 2880, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:71:14']]
+- [2688, 1, 2880, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:29:18']]
+- [2880, 3, 3072, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:71:21']]
+- [2880, 1, 3072, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:29:26']]
+- [3072, ~, 3, bar]
+- [3072, 4, 3648, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:93:3']]
+- [3072, 3, 3840, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:72:3']]
+- [3072, 2, 3648, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:51:3']]
+- [3072, 1, 3840, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:30:3']]
+- [3648, 4, 3840, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:93:12']]
+- [3648, 2, 3840, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:51:13']]
+- [3840, 4, 4608, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:93:20']]
+- [3840, 3, 4032, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:72:7']]
+- [3840, 2, 4608, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:51:22']]
+- [3840, 1, 4224, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:30:11']]
+- [4032, 3, 4224, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:72:13']]
+- [4224, 3, 4416, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:72:20']]
+- [4224, 1, 4608, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:30:20']]
+- [4416, 3, 4608, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:72:27']]
+- [4608, ~, 4, bar]
+- [4608, 4, 4800, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:94:3']]
+- [4608, 3, 4992, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:73:3']]
+- [4608, 2, 4800, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:52:3']]
+- [4608, 1, 5568, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:31:3']]
+- [4800, 4, 4992, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:94:9']]
+- [4800, 2, 5568, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:52:10']]
+- [4992, 4, 5184, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:94:15']]
+- [4992, 2, 5184, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:52:17']]
+- [5184, 4, 5376, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:94:24']]
+- [5184, 2, 5376, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:52:27']]
+- [5376, 4, 5760, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:94:33']]
+- [5376, 2, 5760, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:52:37']]
+- [5760, 4, 5952, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:94:39']]
+- [5760, 3, 5952, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:73:17']]
+- [5760, 2, 5952, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:52:44']]
+- [5760, 1, 5952, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:31:18']]
+- [5952, 4, 6144, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:94:43']]
+- [5952, 3, 6144, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:73:21']]
+- [5952, 2, 6144, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:52:49']]
+- [5952, 1, 6144, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:31:23']]
+- [6144, ~, 5, bar]
+- [6144, 4, 6720, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:95:3']]
+- [6144, 3, 6720, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:74:3']]
+- [6144, 2, 6720, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:53:3']]
+- [6144, 1, 6720, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:32:3']]
+- [6720, 4, 6912, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:95:10']]
+- [6720, 3, 6912, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:74:10']]
+- [6720, 2, 6912, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:53:11']]
+- [6720, 1, 6912, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:32:11']]
+- [6912, 4, 7104, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:95:16']]
+- [6912, 3, 7104, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:74:16']]
+- [6912, 2, 7104, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:53:18']]
+- [6912, 1, 7104, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:32:18']]
+- [7104, 4, 7296, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:95:22']]
+- [7104, 3, 7296, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:74:22']]
+- [7104, 2, 7296, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:53:25']]
+- [7104, 1, 7296, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:32:25']]
+- [7296, 4, 7488, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:95:28']]
+- [7296, 3, 7488, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:74:28']]
+- [7296, 2, 7488, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:53:32']]
+- [7296, 1, 7488, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:32:32']]
+- [7488, 4, 7680, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:95:32']]
+- [7488, 3, 7680, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:74:32']]
+- [7488, 2, 7680, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:53:37']]
+- [7488, 1, 7680, ['/home/henri/projects/partitur-data/TMK_02/TMK_02_ly_main.ly:32:37']]

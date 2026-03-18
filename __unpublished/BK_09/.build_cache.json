@@ -1,0 +1,89 @@
+{
+  "svg_one_line": {
+    "BK_09_ly_one_line.ly": "178e19cc51091fb777a60febaf4ea2ff117b212b8e8885df17d8a7fc87750a02",
+    "../../__includes/svg-animation-init.ily": "595fbca3276fc8439c392c27720cd89f8a36486250a533b356a2c0d9a7fdc51e",
+    "../../__includes/highlight-bars.ily": "8c52d45da101bfa72595b95a809561683c5336c7130e86678601e87b1852fb78",
+    "../BK_video.ily": "ed748b9d469e2f2ed9e90f760991a21eaac40329b0262866f1e1ab1643eb5192",
+    "BK_09.ly": "71651f6adce21f88673a90f39130b8323f85dbf35cb603008e2d80f9691cc06a",
+    "../../../solmisasi-ly/solmisasi-ly.ily": "baa0f1c616b6d13f629cb22641aab5ff917d1c53db2d72fcbe6132e65959fa7b",
+    "../../__includes/fermata.ily": "85f75581324581e98ead58b6d4e9fd255260000f49e0fe20a349eab872ca73dd",
+    "BK_09_ly_main.ly": "b3c2b252ea1081cecf235dae28ae774e16f5cc1b202093ff643f6499f2ccd8d7",
+    "../../__includes/gj-music-template.ily": "1ae5f8b6872864728dea933e1c1603a6a93dc6e35a23e055c19bbe74805f5a97",
+    "../../__includes/shapeII.ily": "a43d347e599b1f0a8d49fd6c115d8c235e001e5a75e4ae5f453b27f9550d3baf",
+    "../../../solmisasi-ly/ly/internal/utilities.ily": "4d775d440f8e5d73eb2dfa3e4dd5a9db97bb77eaf639fd89197e386f3918a6f6",
+    "../../__includes/tie-attributes.ily": "71b81804c3e32be2bec425f62b8afa65f5ab0466a37f755b28951af5ee4b6d62",
+    "../../__includes/hy-chords.ily": "7f1a5a4fbf0e64565410357b4b594e9fc2105067cbe3abd40f09b6b881f4d7b9",
+    "../../__includes/pseudo-indents.ily": "7f7f9375c6edd5dee76fed8e20ec7a7a9dcbbb8620b54f3b8be0fe99e6d62437",
+    "../../__includes/gj-music-framework-svg.mod.ily": "2f339ca07f3818b81e6f991ce179a896e8248c6ba527cdea196afb0400de4427",
+    "../../../solmisasi-ly/ly/internal/os-path.ily": "7a4356865eb508b60eabe0c477d5f5c8f22d46fe50f26fcf389860a229cd6acd"
+  },
+  "events": {
+    "BK_09_ly_one_line.midi": "b3c5a32661aabe65ca25fd4c3100a3ebaa151eaafce624bc92d53e280e2046ef"
+  },
+  "filter_one_line": {
+    "BK_09_ly_one_line.svg": "f1fa79ee7d3cecb40f4ca5c968f73d05b771298771b770b0dc77d149e90248e3"
+  },
+  "ties": {
+    "BK_09_ly_one_line_filtered.svg": "20fe49cfd95273af95c07638852fa2f20810cc98cc958e5904621ce91cf0ccc1"
+  },
+  "noteheads": {
+    "BK_09_ly_one_line_filtered.svg": "20fe49cfd95273af95c07638852fa2f20810cc98cc958e5904621ce91cf0ccc1"
+  },
+  "squash": {
+    "BK_09_note_heads.csv": "64b6445a201c9a8cb32d4e60966d25c9739c1808db0319f721735d67b46706b6",
+    "BK_09_ties.csv": "1364eff62c44143084b22fde48678fce89582dc0f59e71c21caa6b4e4fc4a38d"
+  },
+  "align": {
+    "BK_09_note_heads_squashed.csv": "c9868f36d4ab5b9b4d647443cab1b4bff8273306db12fa198a53c03dd086ecc7",
+    "BK_09_note_events.csv": "0c4f82a3902d4407a90d5665b22098e97f6056c33ab35cf95838e5042357fbcf"
+  },
+  "svg": {
+    "BK_09.ly": "71651f6adce21f88673a90f39130b8323f85dbf35cb603008e2d80f9691cc06a",
+    "../../__includes/svg-animation-init.ily": "595fbca3276fc8439c392c27720cd89f8a36486250a533b356a2c0d9a7fdc51e",
+    "../../__includes/highlight-bars.ily": "8c52d45da101bfa72595b95a809561683c5336c7130e86678601e87b1852fb78",
+    "../BK_video.ily": "ed748b9d469e2f2ed9e90f760991a21eaac40329b0262866f1e1ab1643eb5192",
+    "../../../solmisasi-ly/solmisasi-ly.ily": "baa0f1c616b6d13f629cb22641aab5ff917d1c53db2d72fcbe6132e65959fa7b",
+    "../../__includes/fermata.ily": "85f75581324581e98ead58b6d4e9fd255260000f49e0fe20a349eab872ca73dd",
+    "BK_09_ly_main.ly": "b3c2b252ea1081cecf235dae28ae774e16f5cc1b202093ff643f6499f2ccd8d7",
+    "../../__includes/gj-music-template.ily": "1ae5f8b6872864728dea933e1c1603a6a93dc6e35a23e055c19bbe74805f5a97",
+    "../../__includes/shapeII.ily": "a43d347e599b1f0a8d49fd6c115d8c235e001e5a75e4ae5f453b27f9550d3baf",
+    "../../../solmisasi-ly/ly/internal/utilities.ily": "4d775d440f8e5d73eb2dfa3e4dd5a9db97bb77eaf639fd89197e386f3918a6f6",
+    "../../__includes/tie-attributes.ily": "71b81804c3e32be2bec425f62b8afa65f5ab0466a37f755b28951af5ee4b6d62",
+    "../../__includes/hy-chords.ily": "7f1a5a4fbf0e64565410357b4b594e9fc2105067cbe3abd40f09b6b881f4d7b9",
+    "../../__includes/pseudo-indents.ily": "7f7f9375c6edd5dee76fed8e20ec7a7a9dcbbb8620b54f3b8be0fe99e6d62437",
+    "../../__includes/gj-music-framework-svg.mod.ily": "2f339ca07f3818b81e6f991ce179a896e8248c6ba527cdea196afb0400de4427",
+    "../../../solmisasi-ly/ly/internal/os-path.ily": "7a4356865eb508b60eabe0c477d5f5c8f22d46fe50f26fcf389860a229cd6acd"
+  },
+  "filter": {
+    "BK_09.svg": "2da28d6b4a693762ed28e2ecb793c4bf323f843202459e914c25ee625c07be04"
+  },
+  "swell": {
+    "BK_09_filtered.svg": "c1910de23cf827c2c780c9e3e08bb52ecd71d146567f24c75db7526d5ee546c9"
+  },
+  "optim": {
+    "BK_09_filtered_swellable.svg": "fa88db71fd5022046245c0553bbc733f6d94068ce0d228b118f414b7acf6e471"
+  },
+  "sync": {
+    "BK_09_optimized.svg": "d8efe65bd3fd8764ac218bd1df398b043b12aa74ba556ab47d57529b5db8112a",
+    "BK_09_json_notes.json": "87e6f6672a67b589d423ca909f58ec5cf70a66ed76cd565a9b3ac2516bde8e71",
+    "BK_09_note_heads_fermata.csv": "92a2b8a7c573a5f7243bcd25c37e27e1fabcf4f4326a0f39f3919fbdf5402f11",
+    "exports/BK_09.config.yaml": "81e201df80b31378e841394a522bc37a2f3809f3d62362253d6a4dc6bbb218b1"
+  },
+  "pdf": {
+    "BK_09.ly": "71651f6adce21f88673a90f39130b8323f85dbf35cb603008e2d80f9691cc06a",
+    "../../__includes/svg-animation-init.ily": "595fbca3276fc8439c392c27720cd89f8a36486250a533b356a2c0d9a7fdc51e",
+    "../../__includes/highlight-bars.ily": "8c52d45da101bfa72595b95a809561683c5336c7130e86678601e87b1852fb78",
+    "../BK_video.ily": "ed748b9d469e2f2ed9e90f760991a21eaac40329b0262866f1e1ab1643eb5192",
+    "../../../solmisasi-ly/solmisasi-ly.ily": "baa0f1c616b6d13f629cb22641aab5ff917d1c53db2d72fcbe6132e65959fa7b",
+    "../../__includes/fermata.ily": "85f75581324581e98ead58b6d4e9fd255260000f49e0fe20a349eab872ca73dd",
+    "BK_09_ly_main.ly": "b3c2b252ea1081cecf235dae28ae774e16f5cc1b202093ff643f6499f2ccd8d7",
+    "../../__includes/gj-music-template.ily": "1ae5f8b6872864728dea933e1c1603a6a93dc6e35a23e055c19bbe74805f5a97",
+    "../../__includes/shapeII.ily": "a43d347e599b1f0a8d49fd6c115d8c235e001e5a75e4ae5f453b27f9550d3baf",
+    "../../../solmisasi-ly/ly/internal/utilities.ily": "4d775d440f8e5d73eb2dfa3e4dd5a9db97bb77eaf639fd89197e386f3918a6f6",
+    "../../__includes/tie-attributes.ily": "71b81804c3e32be2bec425f62b8afa65f5ab0466a37f755b28951af5ee4b6d62",
+    "../../__includes/hy-chords.ily": "7f1a5a4fbf0e64565410357b4b594e9fc2105067cbe3abd40f09b6b881f4d7b9",
+    "../../__includes/pseudo-indents.ily": "7f7f9375c6edd5dee76fed8e20ec7a7a9dcbbb8620b54f3b8be0fe99e6d62437",
+    "../../__includes/gj-music-framework-svg.mod.ily": "2f339ca07f3818b81e6f991ce179a896e8248c6ba527cdea196afb0400de4427",
+    "../../../solmisasi-ly/ly/internal/os-path.ily": "7a4356865eb508b60eabe0c477d5f5c8f22d46fe50f26fcf389860a229cd6acd"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "TMK_08",
+  "workInfo": {
+    "title": "Tuhan Maha Kasih - p08",
+    "fullTitle": "Tuhan Maha Kasih - p08",
+    "composer": "Grego Julius & Chrisantyo Lucas",
+    "arranger": "Henri Yulianto & Chrisantyo Lucas",
+    "lyricist": "Grego Julius",
+    "instrument": "SATB",
+    "notationType": "not angka",
+    "workType": "Aransemen",
+    "workId": "TMK_08",
+    "movementName": "SATB"
+  },
+  "cdn": {
+    "provider": "github",
+    "identifier": "partitur-data"
+  },
+  "files": {
+    "audioPath": "TMK_08.m4a",
+    "svgPath": "TMK_08.svg",
+    "syncPath": "TMK_08.yaml"
+  },
+  "musicalStructure": {
+    "totalDurationSeconds": 30,
+    "totalMeasures": 8,
+    "lastMeasureDuration": "1/4",
+    "visualLeadTimeSeconds": 0.2
+  },
+  "measureHighlighters": {
+    "alternating": {
+      "name": "Alternating Colors",
+      "type": "alternating",
+      "colors": [
+        "lightskyblue",
+        "lightsalmon",
+        "lightgreen",
+        "lightpink"
+      ],
+      "opacity": 0.25
+    }
+  },
+  "urls": {
+    "audio": "/partitur-data/TMK_08/exports/TMK_08.m4a",
+    "pdf": "/partitur-data/TMK_08/exports/TMK_08.pdf",
+    "svg": "/partitur-data/TMK_08/exports/TMK_08.svg",
+    "sync": "/partitur-data/TMK_08/exports/TMK_08.yaml"
+  }
+}
