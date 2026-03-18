@@ -1,25 +1,51 @@
-\version "2.25.26"
+\version "2.25.29"
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Creating jazz-style chords
-% Borrowed from Jean-Pierre's good work at:
-%               https://sites.google.com/site/jpgzic/home
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#(define (define-grob! grob-name grob-entry)
+   (set! all-grob-descriptions
+         (cons ((@@ (lily) completize-grob-entry)
+                (cons grob-name grob-entry))
+               all-grob-descriptions)))
 
+% Custom grob properties
+#(set-object-property! 'flatSymbolMarkup 'backend-type? markup?)
+#(set-object-property! 'sharpSymbolMarkup 'backend-type? markup?)
+
+% Redefine ChordName grob descriptions
+#(define-grob!
+  'ChordName
+  `((after-line-breaking . ,ly:chord-name::after-line-breaking)
+    (extra-spacing-height . (0.2 . -0.2))
+    (extra-spacing-width . (-0.5 . 0.5))
+    (font-family . sans)
+    (font-size . 1.5)
+    (stencil . ,ly:text-interface::print)
+    (word-space . 0.0)
+    (Y-extent . ,grob::always-Y-extent-from-stencil)
+    (flatSymbolMarkup . "b")
+    (sharpSymbolMarkup . "#")
+    (meta . ((class . Item)
+             (interfaces . (accidental-switch-interface
+                            chord-name-interface
+                            font-interface
+                            outside-staff-interface
+                            rhythmic-grob-interface
+                            text-interface))
+             (description . "A stand-alone chord name.  For chord
+names in chord grids, see @iref{GridChordName}.")))))
 
 % modification of the procedure "chordRootNamer"
-%---- Definition of chord alterations -------
+%------ Definition of chord alterations -------
 #(define (JazzChordNames pitch majmin)	;majmin is a required argument for "chordNamer", but not used here
    (let* ((alt (ly:pitch-alteration pitch))
           (letter (vector-ref #("C" "D" "E" "F" "G" "A" "B")
                               (ly:pitch-notename pitch)))
-          (flatStr "b")
-          ; (vector-ref #("es" "es" "s" "es" "es" "s" "es")
-          ;                        (ly:pitch-notename pitch))
+          (sharpSymbolMarkup "#")
+          (flatSymbolMarkup "b")
+          (letterColor "#090088")
           )
      (make-line-markup
       (list
-       (make-simple-markup letter)
+       letter
        ;; If it's natural, do nothing
        (if (= alt 0)
            (make-line-markup (list empty-markup))
@@ -29,14 +55,14 @@
                 (list
                  (make-hspace-markup 0.0)
                  ;(make-small-markup (make-raise-markup 0.4
-                 (make-simple-markup flatStr)
+                 flatSymbolMarkup
                  ))
                ;; or handle adding the sharp symbol
                (make-line-markup
                 (list
                  (make-hspace-markup 0.0)
                  ;(make-small-markup (make-raise-markup 0.7
-                 (make-bold-markup "#")))))))))
+                 sharpSymbolMarkup))))))))
 
 %----- markup commands to make it easier to write chords -----
 %----- this section can be adapted as desired (I don't like "MI" and "MA", for example)
@@ -70,7 +96,7 @@
 %	degrés 			markup				% écriture
 JazzChordsList = {
   % minor third chords - 3 notes
-  <c es ges>1-\markup { \normal-weight "dim" } % :dim
+  <c es ges>-\markup { \normal-weight "dim" } % :dim
   <c es g>-\markup { \normal-weight \acMin #"" } % :m
 
   % minor third chords - 4 notes
@@ -122,7 +148,7 @@ JazzChordsList = {
   <c e g d'>-\markup { \normal-weight "add9" } % :3.5.9
 
   % major third chords - 5+ notes
-  <c e g b d'>-\markup { \normal-weight \acMaj #"9" } % :maj9
+  <c e g b d'>-\markup { \normal-weight "M9" } % :maj9
   <c e g bes des'>-\markup { \normal-weight \super "7(b9)" } % :9-
   <c e ges bes des'>-\markup { \normal-weight \override #'(baseline-skip . 2) \acAlt #"7" #"b9" #"b5" } % :9-.5-
   <c e gis bes des'>-\markup { \normal-weight \override #'(baseline-skip . 2) \acAlt #"7" #"b9" #"#5" } % :9-.5+
@@ -140,8 +166,8 @@ JazzChordsList = {
   % sustained chords
   <c d g>-\markup { \normal-weight "sus2" } % :sus2
   <c f g>-\markup { \normal-weight "sus" } % :sus4
-  <c f g bes>-\markup { \normal-weight \super "7sus" }  % :sus4.7
-  <c f g bes d'>-\markup { \normal-weight \super "9sus" }  % :sus4.7.9
+  <c f g bes>-\markup { \normal-weight "7sus" }  % :sus4.7
+  <c f g bes d'>-\markup { \normal-weight "9sus" }  % :sus4.7.9
   <c f g dis'>-\markup { \normal-weight \super "#9sus" }  % :sus4.9+
 }
 
@@ -155,8 +181,12 @@ JazzChords = #(append (sequential-music-to-chord-exceptions JazzChordsList #t) i
     chordRootNamer = #JazzChordNames	% update the chord names
     chordNameExceptions = #JazzChords	% update the chord exceptions
     %\override ChordName.fonts.sans = #"Norfolk PlainChords Sans Std"
-    \override ChordName.font-size = #-1
+    %\override ChordName.font-size = #-1
     %\override ChordName.font-name = #"lilyjazz-chord"  % use the custom font for displaying the chords
+  }
+  \context {
+    \Global
+    \grobdescriptions #all-grob-descriptions
   }
 }
 

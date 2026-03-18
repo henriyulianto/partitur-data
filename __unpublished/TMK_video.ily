@@ -1,16 +1,16 @@
 % TMK_video.ily
 \version "2.25.29"
 
-\include "../solmisasi-ly/solmisasi-ly.ily"
+\include "../../solmisasi-ly/solmisasi-ly.ily"
 \debugOff
 
 #(set-global-staff-size (* 240/210 20))
 
-\include "./__includes/shapeII.ily"
+\include "../__includes/shapeII.ily"
 
-\include "./__includes/svg-animation-init.ily"
+\include "../__includes/svg-animation-init.ily"
 
-\include "./__includes/gj-music-template.ily"
+\include "../__includes/gj-music-template.ily"
 
 \paper {
   indent = 0\mm

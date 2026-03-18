@@ -1,6 +1,6 @@
 %\version "2.25.34"
 
-\include "jazzchords.ily"
+\include "hy-chords.ily"
 \include "pseudo-indents.ily"
 \include "gj-music-framework-svg.mod.ily"
 
@@ -177,7 +177,7 @@ SolmisasiLayout = \layout {
   \context {
     \Score
     \remove Volta_engraver
-    \omit SystemStartBar
+    \override SystemStartBar.extra-offset = #'(-3.7 . 0)
     \override SystemStartBracket.padding = #6
     \override SystemStartBracket.direction = #LEFT
     \override BarNumber.X-offset = #-4

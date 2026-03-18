@@ -64,28 +64,32 @@ SolmisasiLayout = \layout {
     \Lyrics
     \override LyricText.font-size = #0.75
     \override LyricText.Y-offset = #1.0
+    \override LyricExtender.Y-offset = #1.0
     \override LyricHyphen.Y-offset = #1.15
+    #(if is-svg?
+         (ly:parser-include-string
+          "\\consists #Simple_highlight_engraver
+           \\consists Staff_highlight_engraver
+           \\consists #Bar_timing_collector"))
   }
   \context {
     \ChordNames
-    %\consists "Bar_engraver"
-    %\override BarLine.bar-extent = #'(-1 . 3)
-    \override ChordName.font-size = #-1.25
-    \override ChordName.font-series = #'bold
-    \override ChordName.color = "#343434"
+    \override ChordName.font-size = #-1.0
+    \override ChordName.font-family = #'sans
+    %\override ChordName.font-series = #'bold
+    %\override ChordName.color = "#343434"
   }
 }
 
 BK_Global = {
   \undo \disallowPageBreak
   \undo \disallowLineBreak
-  \omit SolmisasiKeyChangeMark
+  %\omit SolmisasiKeyChangeMark
   \override Score.Beam.extra-offset = #'(0 . -0.3)
   \numericTimeSignature
   \time 4/4
   \set Score.beamExceptions = #'()
   \set Score.beatBase = #1/4
   \set Score.beatStructure = 1,1,1,1
-  \key des \major
   \tag#'midi { \tempo 4 = 70 }
 }
